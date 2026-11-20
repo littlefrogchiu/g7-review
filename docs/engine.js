@@ -3,15 +3,15 @@
 const KT = { vocab: 10, grammar: 20, fix: 25, news: 30, order: 30, form: 15 };   // 每題秒數（form 題可用 q.sec 覆寫）
 const qT = q => q.sec || KT[q.kind];
 const PAUSE = { vocab: 1700, form: 2000, grammar: 3000, news: 4200, fix: 5200, order: 4200 }; // 對戰揭曉停留
-const BATTLE_N = { vocab: 12, pron: 10, plural: 12, ing: 12, grammar: 10, fix: 8, news: 8, order: 8 };
+const BATTLE_N = { vocab: 12, pron: 10, plural: 12, ing: 12, live: 12, grammar: 10, fix: 8, news: 8, order: 8 };
 const PREFIX = 'g7review-';
 const GAME_OF_KIND = { vocab: 'vocab', grammar: 'grammar', fix: 'fix', news: 'news', order: 'order' };
-const gameOf = q => q.kind === 'form' ? q.g : GAME_OF_KIND[q.kind];
+const gameOf = q => q.g || GAME_OF_KIND[q.kind];
 
 /* ---------- 題目 id / 摘要 ---------- */
 function qid(q) {
   switch (q.kind) {
-    case 'vocab': return 'vocab|' + q.w.en;
+    case 'vocab': return 'vocab|' + (q.wh ? q.wh + '|' : '') + q.w.en;
     case 'grammar': return 'grammar|' + q.q;
     case 'fix': return 'fix|' + q.t;
     case 'news': return 'news|' + q.en;
@@ -46,7 +46,7 @@ const Book = {
   add(q, uid) {
     if (!q || q.kind === 'passage') return;
     const b = this.all(), id = qid(q), e = b[id];
-    const where = e ? e.where : q.l ? 'U' + q.l : q.r ? q.r : q.kind === 'form' ? q.g.toUpperCase() : uid;
+    const where = e ? e.where : q.wh ? q.wh : q.l ? 'U' + q.l : q.r ? q.r : q.kind === 'form' ? q.g.toUpperCase() : uid;
     b[id] = { id, q, where, g: gameOf(q), n: (e ? e.n : 0) + 1, t: Date.now() };
     this.save(b);
   },
@@ -147,7 +147,7 @@ function panel(el, q, opt) {
       info = `<div class="answer">${esc(q.en)} <button class="say" data-say="${esc(q.en)}">🔊</button></div>`;
     } else {
       $$('.opts button').forEach((b, i) => { b.disabled = true; if (i === q.a) b.classList.add('right'); else if (i === res.k) b.classList.add('wrong'); });
-      if (q.kind === 'vocab') info = `<b>${esc(q.w.en)}</b> ${esc(q.w.pos)} ${esc(q.w.zh)}<span class="src">📖 ${esc(q.w.ex)} <button class="say" data-say="${esc(q.w.ex)}">🔊</button></span>`;
+      if (q.kind === 'vocab') info = `<b>${esc(q.w.en)}</b> ${esc(q.w.pos)} ${esc(q.w.zh)}<span class="src">📖 ${esc(q.w.ex)} <button class="say" data-say="${esc(q.w.ex)}">🔊</button>${q.w.exZh ? '<br>' + esc(q.w.exZh) : ''}</span>`;
       if (q.kind === 'grammar' || q.kind === 'form') info = esc(q.tip || '');
       if (q.kind === 'news') { info = esc(q.tip || ''); const st = el.querySelector('.stem.news'); if (st) st.innerHTML = esc(q.hl).replace(/\[\[(.*?)\]\]/g, '<mark>$1</mark>'); }
     }
@@ -612,8 +612,8 @@ function revealStage(pts) {
 }
 
 /* ---------- 錯題本畫面 ---------- */
-const BOOK_TABS = [['all', '全部'], ['U1', 'U1'], ['U2', 'U2'], ['U3', 'U3'], ['U4', 'U4'], ['U5', 'U5'], ['U6', 'U6'], ['R', 'Review 句子重組'], ['PRON', '人稱代名詞'], ['PLURAL', '名詞複數'], ['ING', '現在分詞']];
-const WHERE_NAME = { PRON: '人稱代名詞', PLURAL: '名詞複數', ING: '現在分詞' };
+const BOOK_TABS = [['all', '全部'], ['U1', 'U1'], ['U2', 'U2'], ['U3', 'U3'], ['U4', 'U4'], ['U5', 'U5'], ['U6', 'U6'], ['R', 'Review 句子重組'], ['PRON', '人稱代名詞'], ['PLURAL', '名詞複數'], ['ING', '現在分詞'], ['LIVE', 'LiveABC']];
+const WHERE_NAME = { PRON: '人稱代名詞', PLURAL: '名詞複數', ING: '現在分詞', LIVE: 'LiveABC' };
 function bookFilter(f) {
   const items = Object.values(Book.all()).sort((a, b) => b.t - a.t);
   if (!f || f === 'all') return items;

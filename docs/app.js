@@ -32,6 +32,7 @@ const GAMES = {
   pron:    { lv: 'lc', lvT: '共通練習', ic: '👥', name: '人稱代名詞', en: 'Pronouns', time: 15, desc: '主格、所有格、受格：看句子選出正確的代名詞。' },
   plural:  { lv: 'lc', lvT: '共通練習', ic: '🔢', name: '名詞複數', en: 'Plural nouns', time: 10, desc: '-s、-es、-ies、-ves 和不規則變化，選出正確的複數。' },
   ing:     { lv: 'lc', lvT: '共通練習', ic: '🏃', name: '現在分詞', en: 'V-ing', time: 10, desc: '直接加 -ing、去 e、重複字尾，選出正確的 V-ing。' },
+  live:    { lv: 'lc', lvT: '共通練習', ic: '📰', name: 'LiveABC ' + LIVE_MONTH + '單字', en: 'LiveABC vocabulary', time: 10, desc: '本月 LiveABC 雜誌單字卡，看英文選中文，三選一，附例句。' },
   book:    { lv: 'l3', lvT: '錯題本', ic: '📕', name: '錯題練習', en: 'Review mistakes', time: 0, desc: '' }
 };
 
@@ -126,6 +127,10 @@ function buildQuestions(u, g) {
     const o = shuffle([p[1], ...shuffle([...new Set(wrong)].filter(x => x !== p[1] && x !== w)).slice(0, 2)]);
     return { kind: 'form', g: 'plural', sec: 10, q: `${w}（${p[2]}）的複數是？`, o, a: o.indexOf(p[1]), tip: `${w} → ${p[1]}：${p[3]}` };
   });
+  if (g === 'live') return shuffle(LIVE).map(w => {
+    const o = shuffle([w.zh, ...shuffle(LIVE.filter(x => x.zh !== w.zh && x.en !== w.en)).slice(0, 2).map(x => x.zh)]);
+    return { kind: 'vocab', g: 'live', wh: 'LIVE', w, o, a: o.indexOf(w.zh) };
+  });
   if (g === 'ing') return pick(ING, 20).map(p => {
     const w = p[0], last = w.slice(-1);
     const wrong = [w + 'ing', w.replace(/e$/, '') + 'ing', w + last + 'ing', w.replace(/y$/, 'i') + 'ing', w.replace(/e$/, '') + w.replace(/e$/, '').slice(-1) + 'ing', w + 'eing'];
@@ -167,7 +172,7 @@ function missionCard(uid, g) {
     if (g === 'news') count = u.ls.reduce((s, n) => s + (NEWS[n] || []).length, 0) + ' 句';
     if (g === 'order') count = REVIEW[u.rv].sents.length + ' 句・' + REVIEW[u.rv].page;
     if (g === 'passage') count = REVIEW[u.rv].sents.length + ' 句・' + REVIEW[u.rv].page;
-  } else count = (g === 'pron' ? PRON.length : g === 'plural' ? PLURAL.length : ING.length) + ' 題庫';
+  } else count = g === 'live' ? LIVE.length + ' 字' : (g === 'pron' ? PRON.length : g === 'plural' ? PLURAL.length : ING.length) + ' 題庫';
   return `<a class="mission ${G.lv}" href="#/play/${uid}/${g}">
     <div class="lv"><span class="ic">${G.ic}</span>${G.lvT}</div>
     <h3>${G.name}</h3><div class="en">${G.en}</div>
@@ -177,7 +182,7 @@ function missionCard(uid, g) {
 }
 function crossSection() {
   return `<div class="sec"><h2>共通練習</h2><small>每個單元都適用</small></div>
-  <div class="missions" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">${missionCard('ALL', 'pron')}${missionCard('ALL', 'plural')}${missionCard('ALL', 'ing')}</div>`;
+  <div class="missions" style="grid-template-columns:repeat(auto-fit,minmax(170px,1fr))">${missionCard('ALL', 'pron')}${missionCard('ALL', 'plural')}${missionCard('ALL', 'ing')}${missionCard('ALL', 'live')}</div>`;
 }
 function unitView(id) {
   stopTimer();
