@@ -9,17 +9,16 @@ const L = ['A', 'B', 'C', 'D'];
 
 /* ---------- units ---------- */
 const UNITS = [
-  { id: 'U1', no: 'U1', ls: [1], ex: 1, title: "Who's That Handsome Boy?", zh: '親屬・職業・人物描述', gram: 'be 動詞直述句・否定句・Yes/No 問句、形容詞、Who 問句、所有格' },
-  { id: 'U2', no: 'U2', ls: [2], ex: 1, title: 'Where Are My Pencils?', zh: '位置・房間・事物描述', gram: 'this / that / these / those、名詞複數、Where 問句與位置介系詞' },
-  { id: 'R1', no: 'R1', ls: [1, 2], ex: 1, rv: 'R1', title: 'Review 1', zh: '一段：Unit 1、2 總複習', gram: 'U1 be 動詞・形容詞・Who ＋ U2 指示詞・複數・Where' },
-  { id: 'U3', no: 'U3', ls: [3], ex: 2, title: 'Open the Magic Door', zh: '圖像符號・建議與規範', gram: "祈使句、Let's、助動詞 can 問答、人稱代名詞受格" },
-  { id: 'U4', no: 'U4', ls: [4], ex: 2, title: 'What Time Is the Concert?', zh: '時間・星期・正在做的事', gram: 'What day / What time 問句、現在進行式' },
-  { id: 'R2', no: 'R2', ls: [3, 4], ex: 2, rv: 'R2', title: 'Review 2', zh: '二段：Unit 3、4 總複習', gram: "U3 祈使句・Let's・can・受格 ＋ U4 時間星期・現在進行式" },
-  { id: 'U5', no: 'U5', ls: [5], ex: 3, title: "What's the Date?", zh: '日期・節日・生日', gram: '日期問答、序數、When 問句、on / in / at' },
-  { id: 'U6', no: 'U6', ls: [6], ex: 3, title: 'There Are Some Elephants Over There', zh: '旅遊・動物關係', gram: 'There is / are 直述句・否定句・問答、some / any' },
-  { id: 'R3', no: 'R3', ls: [5, 6], ex: 3, rv: 'R3', title: 'Review 3', zh: '三段：Unit 5、6 總複習', gram: 'U5 日期・序數・When ＋ U6 There is / are' }
+  { id: 'U1', no: 'U1', ls: [1], title: "Who's That Handsome Boy?", zh: '親屬・職業・人物描述', gram: 'be 動詞直述句・否定句・Yes/No 問句、形容詞、Who 問句、所有格' },
+  { id: 'U2', no: 'U2', ls: [2], title: 'Where Are My Pencils?', zh: '位置・房間・事物描述', gram: 'this / that / these / those、名詞複數、Where 問句與位置介系詞' },
+  { id: 'R1', no: 'R1', ls: [1, 2], rv: 'R1', title: 'Review 1', zh: 'Unit 1、2 總複習', gram: 'U1 be 動詞・形容詞・Who ＋ U2 指示詞・複數・Where' },
+  { id: 'U3', no: 'U3', ls: [3], title: 'Open the Magic Door', zh: '圖像符號・建議與規範', gram: "祈使句、Let's、助動詞 can 問答、人稱代名詞受格" },
+  { id: 'U4', no: 'U4', ls: [4], title: 'What Time Is the Concert?', zh: '時間・星期・正在做的事', gram: 'What day / What time 問句、現在進行式' },
+  { id: 'R2', no: 'R2', ls: [3, 4], rv: 'R2', title: 'Review 2', zh: 'Unit 3、4 總複習', gram: "U3 祈使句・Let's・can・受格 ＋ U4 時間星期・現在進行式" },
+  { id: 'U5', no: 'U5', ls: [5], title: "What's the Date?", zh: '日期・節日・生日', gram: '日期問答、序數、When 問句、on / in / at' },
+  { id: 'U6', no: 'U6', ls: [6], title: 'There Are Some Elephants Over There', zh: '旅遊・動物關係', gram: 'There is / are 直述句・否定句・問答、some / any' },
+  { id: 'R3', no: 'R3', ls: [5, 6], rv: 'R3', title: 'Review 3', zh: 'Unit 5、6 總複習', gram: 'U5 日期・序數・When ＋ U6 There is / are' }
 ];
-const EXAMS = ['', '一段', '二段', '三段'];
 const unitOf = id => UNITS.find(u => u.id === id);
 
 /* ---------- games ---------- */
@@ -183,7 +182,7 @@ function crossSection() {
 function unitView(id) {
   stopTimer();
   const u = unitOf(id); if (!u) return home();
-  const extra = u.rv ? `<div class="sec"><h2>${EXAMS[u.ex]}翻譯</h2><small>課本 ${REVIEW[u.rv].page}・${REVIEW[u.rv].lesson}・${REVIEW[u.rv].title}</small></div>
+  const extra = u.rv ? `<div class="sec"><h2>段考翻譯</h2><small>課本 ${REVIEW[u.rv].page}・${REVIEW[u.rv].lesson}・${REVIEW[u.rv].title}</small></div>
     <div class="missions" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">${missionCard(id, 'order')}${missionCard(id, 'passage')}</div>` : '';
   app.innerHTML = `<div class="crumb"><a href="#/">← 回首頁</a></div>
   <div class="card frame">
