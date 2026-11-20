@@ -1,0 +1,1151 @@
+{
+ "grammar": [
+  {
+   "q": "Howard can play baseball, but his sister ____.",
+   "o": [
+    "can't",
+    "can",
+    "is",
+    "isn't"
+   ],
+   "a": 0,
+   "tip": "but 前後語意相反；can 句型→can't"
+  },
+  {
+   "q": "Jolin is a nice girl. Don't fight with ____.",
+   "o": [
+    "him",
+    "her",
+    "me",
+    "it"
+   ],
+   "a": 1,
+   "tip": "Jolin 是女生；介系詞 with 後用受格 her"
+  },
+  {
+   "q": "Sandy: Can you swim?\nLucy: ____ But I can play basketball.",
+   "o": [
+    "Yes, I can.",
+    "Can you?",
+    "No, I can't.",
+    "Can't you?"
+   ],
+   "a": 2,
+   "tip": "But 表轉折→前面是「不會」→No, I can't."
+  },
+  {
+   "q": "Please ____ run in the classroom.",
+   "o": [
+    "not",
+    "not to",
+    "doesn't",
+    "don't"
+   ],
+   "a": 3,
+   "tip": "否定祈使句：Please don't + 原形"
+  },
+  {
+   "q": "Ms. Lee is our teacher. She is very nice to ____.",
+   "o": [
+    "we",
+    "our",
+    "us",
+    "I"
+   ],
+   "a": 2,
+   "tip": "介系詞 to 後用受格 us"
+  },
+  {
+   "q": "Students: Can we play cards in the classroom?\nTeacher: No, ____.",
+   "o": [
+    "you can't",
+    "we can",
+    "I can",
+    "they can't"
+   ],
+   "a": 0,
+   "tip": "學生問 we，老師答 you；否定用 can't"
+  },
+  {
+   "q": "Robert and Larry are my cousins. I play with ____.",
+   "o": [
+    "we",
+    "us",
+    "they",
+    "them"
+   ],
+   "a": 3,
+   "tip": "兩個人、在 with 後→受格 them"
+  },
+  {
+   "q": "____ my cat. ____ name is Mimi.",
+   "o": [
+    "Its; it's",
+    "It's; Its",
+    "It is; It's",
+    "Its; Its"
+   ],
+   "a": 1,
+   "tip": "It's = It is；Its = 牠的(所有格)"
+  },
+  {
+   "q": "Don't read comic books ____ talk on the phone in class.",
+   "o": [
+    "or",
+    "and",
+    "but",
+    "×"
+   ],
+   "a": 0,
+   "tip": "否定句連接兩個動作用 or"
+  },
+  {
+   "q": "Be ____, please. Don't talk in class.",
+   "o": [
+    "happy",
+    "quiet",
+    "young",
+    "old"
+   ],
+   "a": 1,
+   "tip": "不要說話→Be quiet. 安靜"
+  },
+  {
+   "q": "Where are you, Ben? I can't ____ you.",
+   "o": [
+    "talk",
+    "fight",
+    "see",
+    "wait"
+   ],
+   "a": 2,
+   "tip": "看不到你→see；can't + 原形"
+  },
+  {
+   "q": "Jacky, come play ____ my dog, Lucky.",
+   "o": [
+    "and",
+    "for",
+    "at",
+    "with"
+   ],
+   "a": 3,
+   "tip": "和…一起玩→play with"
+  },
+  {
+   "q": "Wait, please. It's not your ____ now.",
+   "o": [
+    "lab",
+    "rule",
+    "turn",
+    "table"
+   ],
+   "a": 2,
+   "tip": "turn（輪到的）機會；請等待"
+  },
+  {
+   "q": "Tom: The pictures are really beautiful.\nBill: Yes, ____. Let's look at them.",
+   "o": [
+    "they are",
+    "it is",
+    "it isn't",
+    "they aren't"
+   ],
+   "a": 0,
+   "tip": "pictures 複數→they；Yes 接肯定 are"
+  },
+  {
+   "q": "These comic books are new. Please read ____ in the room.",
+   "o": [
+    "it",
+    "they",
+    "their",
+    "them"
+   ],
+   "a": 3,
+   "tip": "comic books 複數、在動詞後→them"
+  },
+  {
+   "q": "Look at the ____. We can't eat or drink in the museum.",
+   "o": [
+    "place",
+    "sign",
+    "time",
+    "guy"
+   ],
+   "a": 1,
+   "tip": "看標誌→sign"
+  },
+  {
+   "q": "Tom: ____\nBill: In the park. Follow me.",
+   "o": [
+    "Where can we eat?",
+    "Follow me.",
+    "It's a lab rule.",
+    "What can we do?"
+   ],
+   "a": 0,
+   "tip": "回答地點 In the park→問 Where"
+  },
+  {
+   "q": "Hi! I'm Alan. The boy in front of ____ is Tom.",
+   "o": [
+    "him",
+    "me",
+    "her",
+    "you"
+   ],
+   "a": 1,
+   "tip": "說話者是我；介系詞 of 後用受格 me"
+  },
+  {
+   "q": "The boy is Tom, and the girl next to ____ is Judy.",
+   "o": [
+    "he",
+    "his",
+    "him",
+    "her"
+   ],
+   "a": 2,
+   "tip": "next to 後用受格；Tom 男生→him"
+  },
+  {
+   "q": "Tom and Judy are nice to me, and I am happy to be ____ friends.",
+   "o": [
+    "your",
+    "my",
+    "our",
+    "their"
+   ],
+   "a": 3,
+   "tip": "我是 Tom 和 Judy 的朋友→their"
+  },
+  {
+   "q": "Tom, Judy, and I are classmates. ____ are good friends.",
+   "o": [
+    "He",
+    "She",
+    "We",
+    "Us"
+   ],
+   "a": 2,
+   "tip": "Tom, Judy and I→主格 We"
+  },
+  {
+   "q": "____ talk in the museum, please.",
+   "o": [
+    "Don't",
+    "Not",
+    "Isn't",
+    "Aren't"
+   ],
+   "a": 0,
+   "tip": "否定祈使句用 Don't + 原形"
+  },
+  {
+   "q": "A: Let's ____ read comic books.\nB: OK. Let's play basketball.",
+   "o": [
+    "is",
+    "are",
+    "don't",
+    "not"
+   ],
+   "a": 3,
+   "tip": "Let's 否定→Let's not + 原形"
+  },
+  {
+   "q": "Bob: Can you jump rope?\nTom: Yes, I ____.",
+   "o": [
+    "am",
+    "can",
+    "jump",
+    "do"
+   ],
+   "a": 1,
+   "tip": "用 can 問就用 can 答"
+  },
+  {
+   "q": "A: What ____ your sister do?\nB: She can sing and dance.",
+   "o": [
+    "can",
+    "do",
+    "is",
+    "are"
+   ],
+   "a": 0,
+   "tip": "答句用 can→問句 What can…do?"
+  },
+  {
+   "q": "A: Can your mother cook?\nB: No. But my father ____.",
+   "o": [
+    "cook",
+    "can",
+    "does",
+    "is"
+   ],
+   "a": 1,
+   "tip": "my father can (cook)，省略重複動詞"
+  },
+  {
+   "q": "A: ____ can Judy do?\nB: She can draw comics.",
+   "o": [
+    "Who",
+    "How",
+    "What",
+    "Where"
+   ],
+   "a": 2,
+   "tip": "問「會做什麼」→What"
+  },
+  {
+   "q": "Peter can ____ many things. He can cook, sing, and dance.",
+   "o": [
+    "is doing",
+    "doing",
+    "do not",
+    "do"
+   ],
+   "a": 3,
+   "tip": "can + 原形動詞 do"
+  },
+  {
+   "q": "Please ____ nice to your classmates.",
+   "o": [
+    "are",
+    "is",
+    "be",
+    "am"
+   ],
+   "a": 2,
+   "tip": "祈使句 be 動詞用原形 be"
+  },
+  {
+   "q": "Let's ____.",
+   "o": [
+    "wait for Ben",
+    "don't eat on the bus",
+    "no run in the house",
+    "quiet, please"
+   ],
+   "a": 0,
+   "tip": "Let's + 原形；否定是 Let's not"
+  },
+  {
+   "q": "____, come here, ____.",
+   "o": [
+    "Don't; please",
+    "Please; Joe",
+    "Please don't; Joe",
+    "Joe; please"
+   ],
+   "a": 3,
+   "tip": "稱謂, 祈使句, please."
+  },
+  {
+   "q": "Don't ____ in the lab.",
+   "o": [
+    "running",
+    "run",
+    "to run",
+    "runs"
+   ],
+   "a": 1,
+   "tip": "Don't + 原形動詞"
+  },
+  {
+   "q": "Tom, ____ a good student. Your brother Tim ____ a good student.",
+   "o": [
+    "be; is",
+    "is; is",
+    "be; are",
+    "is; be"
+   ],
+   "a": 0,
+   "tip": "祈使句用 be；Tim 單數用 is"
+  },
+  {
+   "q": "Please ____ the cake. Let's ____ for Johnny.",
+   "o": [
+    "eat; wait",
+    "don't eat; wait",
+    "don't eat; don't wait",
+    "eat; not wait"
+   ],
+   "a": 1,
+   "tip": "先別吃，我們等 Johnny"
+  },
+  {
+   "q": "Hello, I'm Mr. Hsieh. Please follow ____.",
+   "o": [
+    "her",
+    "him",
+    "me",
+    "she"
+   ],
+   "a": 2,
+   "tip": "說話者是我；動詞後用受格 me"
+  },
+  {
+   "q": "Ben and you are in the park. She can see ____.",
+   "o": [
+    "them",
+    "us",
+    "her",
+    "you"
+   ],
+   "a": 3,
+   "tip": "Ben and you→受格 you（你們）"
+  },
+  {
+   "q": "My sister and I are at the museum. Please wait for ____.",
+   "o": [
+    "her",
+    "me",
+    "us",
+    "our"
+   ],
+   "a": 2,
+   "tip": "My sister and I→受格 us"
+  },
+  {
+   "q": "The girls love their grandparents and play with ____.",
+   "o": [
+    "them",
+    "her",
+    "me",
+    "us"
+   ],
+   "a": 0,
+   "tip": "grandparents 複數→them"
+  },
+  {
+   "q": "Liam: I can play baseball. Can I play with ____ guys?\nLucas: Sure.",
+   "o": [
+    "me",
+    "my",
+    "your",
+    "you"
+   ],
+   "a": 3,
+   "tip": "with 後用受格；you guys 你們"
+  },
+  {
+   "q": "____ late for class.",
+   "o": [
+    "Not",
+    "Don't be",
+    "Do not",
+    "Don't"
+   ],
+   "a": 1,
+   "tip": "late 是形容詞要用 be；否定 Don't be"
+  },
+  {
+   "q": "____ be quiet. The teacher is not happy.",
+   "o": [
+    "Let's",
+    "Don't let",
+    "Let",
+    "Let's not"
+   ],
+   "a": 0,
+   "tip": "我們安靜吧→Let's + 原形"
+  },
+  {
+   "q": "Let's ____ draw in our books. It's not nice.",
+   "o": [
+    "do not",
+    "not",
+    "don't",
+    "be"
+   ],
+   "a": 1,
+   "tip": "Let's not + 原形"
+  },
+  {
+   "q": "Mom: Jack, please ____ play with the ball in the living room.\nJack: OK.",
+   "o": [
+    "not",
+    "be",
+    "don't",
+    "do"
+   ],
+   "a": 2,
+   "tip": "please don't + 原形"
+  },
+  {
+   "q": "You can't use your phone in the lab. Please turn ____ off.",
+   "o": [
+    "its",
+    "them",
+    "they",
+    "it"
+   ],
+   "a": 3,
+   "tip": "phone 單數、動詞後→it；turn it off"
+  },
+  {
+   "q": "A: Is the man a police officer?\nB: Yes, he is. Let's go talk to ____.",
+   "o": [
+    "he",
+    "his",
+    "him",
+    "them"
+   ],
+   "a": 2,
+   "tip": "介系詞 to 後用受格 him"
+  },
+  {
+   "q": "I can't see the sign from here. Can you read it for ____?",
+   "o": [
+    "me",
+    "I",
+    "my",
+    "mine"
+   ],
+   "a": 0,
+   "tip": "介系詞 for 後用受格 me"
+  },
+  {
+   "q": "A: ____ he cook?\nB: Yes, he can.",
+   "o": [
+    "Is",
+    "Are",
+    "Do",
+    "Can"
+   ],
+   "a": 3,
+   "tip": "簡答用 can→問句 Can he…?"
+  },
+  {
+   "q": "A: Can Yuki and Zac dance?\nB: No, ____.",
+   "o": [
+    "they aren't",
+    "they can't",
+    "he can't",
+    "we can't"
+   ],
+   "a": 1,
+   "tip": "兩人→they；can 問 can't 答"
+  },
+  {
+   "q": "Ken ____ swim, but he can play baseball.",
+   "o": [
+    "can't",
+    "can",
+    "isn't",
+    "is"
+   ],
+   "a": 0,
+   "tip": "but 前後相反→can't + 原形"
+  },
+  {
+   "q": "A: What can you do?\nB: ____",
+   "o": [
+    "I'm a cook.",
+    "I can sing.",
+    "Yes, I can.",
+    "I can't."
+   ],
+   "a": 1,
+   "tip": "What can you do? 答 I can + 原形"
+  },
+  {
+   "q": "____ careful, Yuki. It's a dinosaur!",
+   "o": [
+    "Are",
+    "Is",
+    "Be",
+    "Don't"
+   ],
+   "a": 2,
+   "tip": "careful 是形容詞，祈使句用 Be"
+  },
+  {
+   "q": "Kitty can ____ rope.",
+   "o": [
+    "jumps",
+    "jumping",
+    "to jump",
+    "jump"
+   ],
+   "a": 3,
+   "tip": "can + 原形動詞"
+  },
+  {
+   "q": "Look behind ____, Zac! It's a mummy.",
+   "o": [
+    "your",
+    "he",
+    "you",
+    "his"
+   ],
+   "a": 2,
+   "tip": "介系詞 behind 後用受格 you"
+  }
+ ],
+ "fix": [
+  {
+   "t": "[[Please]] [[don't]] [[runs]] in [[the museum]].",
+   "e": 2,
+   "o": [
+    "run",
+    "running",
+    "to run"
+   ],
+   "a": 0,
+   "tip": "祈使句 don't + 原形動詞"
+  },
+  {
+   "t": "[[Let's]] [[don't]] [[talk]] [[here]].",
+   "e": 1,
+   "o": [
+    "no",
+    "not",
+    "aren't"
+   ],
+   "a": 1,
+   "tip": "Let's 否定→Let's not + 原形"
+  },
+  {
+   "t": "[[Is]] careful, Yuki. People [[can]] [[see]] [[us]].",
+   "e": 0,
+   "o": [
+    "Are",
+    "Am",
+    "Be"
+   ],
+   "a": 2,
+   "tip": "祈使句 be 動詞用原形 Be"
+  },
+  {
+   "t": "[[Can]] [[he]] [[cooks]]? Yes, [[he can]].",
+   "e": 2,
+   "o": [
+    "cooking",
+    "cook",
+    "to cook"
+   ],
+   "a": 1,
+   "tip": "can + 原形動詞"
+  },
+  {
+   "t": "A: [[Can]] [[they]] jump rope?\nB: No, [[they]] [[aren't]].",
+   "e": 3,
+   "o": [
+    "don't",
+    "isn't",
+    "can't"
+   ],
+   "a": 2,
+   "tip": "用 can 問就用 can't 答"
+  },
+  {
+   "t": "My cousin [[can]] [[play]] baseball, and I play with [[he]] [[after class]].",
+   "e": 2,
+   "o": [
+    "him",
+    "his",
+    "them"
+   ],
+   "a": 0,
+   "tip": "with 後用受格 him"
+  },
+  {
+   "t": "Ms. Lee [[is]] nice to [[we]]. [[She]] [[is]] our teacher.",
+   "e": 1,
+   "o": [
+    "us",
+    "our",
+    "they"
+   ],
+   "a": 0,
+   "tip": "介系詞 to 後用受格 us"
+  },
+  {
+   "t": "A: [[What]] can [[you]] [[do]]?\nB: I [[can sings]].",
+   "e": 3,
+   "o": [
+    "can singing",
+    "can sing",
+    "am sing"
+   ],
+   "a": 1,
+   "tip": "can + 原形動詞"
+  },
+  {
+   "t": "[[Don't]] [[eat]] [[and]] drink [[in the lab]].",
+   "e": 2,
+   "o": [
+    "but",
+    "with",
+    "or"
+   ],
+   "a": 2,
+   "tip": "否定句連接兩動作用 or"
+  },
+  {
+   "t": "[[Look]] at [[that]] sign. You [[can't]] [[using]] your phone here.",
+   "e": 3,
+   "o": [
+    "uses",
+    "use",
+    "to use"
+   ],
+   "a": 1,
+   "tip": "can't + 原形動詞"
+  },
+  {
+   "t": "[[Its]] not safe. [[Zac]], [[don't]] do that, [[please]].",
+   "e": 0,
+   "o": [
+    "It",
+    "Is",
+    "It's"
+   ],
+   "a": 2,
+   "tip": "It's = It is；Its 是所有格"
+  },
+  {
+   "t": "The girl [[next to]] [[I]] [[is]] [[Emily]].",
+   "e": 1,
+   "o": [
+    "me",
+    "my",
+    "mine"
+   ],
+   "a": 0,
+   "tip": "介系詞 next to 後用受格 me"
+  },
+  {
+   "t": "[[Please]] [[follows]] [[these]] lab [[rules]].",
+   "e": 1,
+   "o": [
+    "follow",
+    "following",
+    "to follow"
+   ],
+   "a": 0,
+   "tip": "祈使句用原形動詞"
+  },
+  {
+   "t": "[[Wash]] [[you]] [[hands]] [[after class]].",
+   "e": 1,
+   "o": [
+    "yours",
+    "your",
+    "you're"
+   ],
+   "a": 1,
+   "tip": "你的手→所有格 your"
+  },
+  {
+   "t": "A: [[Can]] [[your]] sister [[dance]]?\nB: Yes, [[she is]].",
+   "e": 3,
+   "o": [
+    "she does",
+    "he can",
+    "she can"
+   ],
+   "a": 2,
+   "tip": "can 問 can 答；sister→she"
+  },
+  {
+   "t": "[[These]] [[comic books]] are new. Please read [[they]] in [[the]] room.",
+   "e": 2,
+   "o": [
+    "their",
+    "them",
+    "it"
+   ],
+   "a": 1,
+   "tip": "動詞後用受格；複數→them"
+  },
+  {
+   "t": "[[Let's]] [[go]] to the park [[with]] [[their]].",
+   "e": 3,
+   "o": [
+    "they",
+    "there",
+    "them"
+   ],
+   "a": 2,
+   "tip": "介系詞 with 後用受格 them"
+  },
+  {
+   "t": "A: Is the man [[a]] police officer?\nB: Yes, [[he is]]. [[Let's]] go talk to [[he]].",
+   "e": 3,
+   "o": [
+    "him",
+    "his",
+    "them"
+   ],
+   "a": 0,
+   "tip": "to 後用受格 him"
+  },
+  {
+   "t": "[[Lets]] read. [[Be]] quiet and [[turn]] off [[the]] TV.",
+   "e": 0,
+   "o": [
+    "Let's",
+    "Let",
+    "Let's to"
+   ],
+   "a": 0,
+   "tip": "Let's = Let us，要有撇號"
+  },
+  {
+   "t": "[[Let's]] [[to wait]] for [[our]] [[turn]].",
+   "e": 1,
+   "o": [
+    "waiting",
+    "wait",
+    "waits"
+   ],
+   "a": 1,
+   "tip": "Let's + 原形動詞"
+  },
+  {
+   "t": "[[Him]] and I [[are]] [[in]] [[the museum]] now.",
+   "e": 0,
+   "o": [
+    "His",
+    "Them",
+    "He"
+   ],
+   "a": 2,
+   "tip": "當主詞用主格 He"
+  },
+  {
+   "t": "[[Where]] [[can]] we [[eating]]? In [[the park]].",
+   "e": 2,
+   "o": [
+    "eats",
+    "eat",
+    "to eat"
+   ],
+   "a": 1,
+   "tip": "can + 原形動詞"
+  },
+  {
+   "t": "[[Not]] [[eat]] on [[the]] bus, [[please]].",
+   "e": 0,
+   "o": [
+    "No",
+    "Doesn't",
+    "Don't"
+   ],
+   "a": 2,
+   "tip": "否定祈使句用 Don't + 原形"
+  },
+  {
+   "t": "It's [[an]] [[magic]] door, [[guys]]. [[Look at]] this.",
+   "e": 0,
+   "o": [
+    "a",
+    "×",
+    "some"
+   ],
+   "a": 0,
+   "tip": "magic 子音開頭→a"
+  },
+  {
+   "t": "Leo, [[don't]] [[fights]] [[with]] [[your]] brother.",
+   "e": 1,
+   "o": [
+    "fight",
+    "fighting",
+    "to fight"
+   ],
+   "a": 0,
+   "tip": "don't + 原形動詞"
+  },
+  {
+   "t": "A: [[What]] can Jamie [[do]]?\nB: [[She]] [[cans]] cook.",
+   "e": 3,
+   "o": [
+    "can to",
+    "can",
+    "is"
+   ],
+   "a": 1,
+   "tip": "助動詞 can 不加 s"
+  },
+  {
+   "t": "[[Many]] [[people]] [[is]] in [[the museum]].",
+   "e": 2,
+   "o": [
+    "am",
+    "be",
+    "are"
+   ],
+   "a": 2,
+   "tip": "people 是複數→are"
+  },
+  {
+   "t": "[[Be]] [[nice]] to [[each other]]. [[No]] fight.",
+   "e": 3,
+   "o": [
+    "Not",
+    "Don't",
+    "Doesn't"
+   ],
+   "a": 1,
+   "tip": "否定祈使句用 Don't + 原形"
+  }
+ ],
+ "sent": [
+  {
+   "en": "With this door, we can go to many places.",
+   "hl": "With this door, we [[can go]] to many places.",
+   "gz": "助動詞can肯定句",
+   "o": [
+    "用這扇門，我們可以去很多地方。",
+    "用這扇門，我們不能去很多地方。",
+    "用這扇門，他們可以去很多地方。"
+   ],
+   "a": 0,
+   "tip": "can + 原形：可以…"
+  },
+  {
+   "en": "Zac, open the magic door.",
+   "hl": "Zac, [[open]] the magic door.",
+   "gz": "祈使句肯定",
+   "o": [
+    "Zac，不要打開這扇魔法門。",
+    "Zac，打開這扇魔法門。",
+    "Zac 會打開這扇魔法門。"
+   ],
+   "a": 1,
+   "tip": "原形動詞開頭→命令、要求"
+  },
+  {
+   "en": "Can we use it?",
+   "hl": "[[Can]] we [[use]] [[it]]?",
+   "gz": "can問句",
+   "o": [
+    "我們可以用它。",
+    "我們不能用它嗎？",
+    "我們可以用它嗎？"
+   ],
+   "a": 2,
+   "tip": "Can 放句首→問句"
+  },
+  {
+   "en": "Sure. Let's go!",
+   "hl": "Sure. [[Let's go]]!",
+   "gz": "Let's + 原形",
+   "o": [
+    "當然。我們別走吧！",
+    "當然。你走吧！",
+    "當然。我們走吧！"
+   ],
+   "a": 2,
+   "tip": "Let's + 原形：我們一起…吧"
+  },
+  {
+   "en": "Be careful, Yuki.",
+   "hl": "[[Be careful]], Yuki.",
+   "gz": "be動詞祈使句",
+   "o": [
+    "Yuki，要小心。",
+    "Yuki 很小心。",
+    "Yuki，你小心嗎？"
+   ],
+   "a": 0,
+   "tip": "Be + 形容詞：要…"
+  },
+  {
+   "en": "People can see us.",
+   "hl": "People [[can see]] [[us]].",
+   "gz": "受格us",
+   "o": [
+    "我們可以看見人們。",
+    "人們可以看見我們。",
+    "人們看不見我們。"
+   ],
+   "a": 1,
+   "tip": "us 是受格，是被看見的人"
+  },
+  {
+   "en": "Look! I can jump on these rocks.",
+   "hl": "Look! I [[can jump]] on [[these rocks]].",
+   "gz": "can + 原形；these",
+   "o": [
+    "看！我可以在這些石頭上跳。",
+    "看！我可以在這塊石頭上跳。",
+    "看！我不能在這些石頭上跳。"
+   ],
+   "a": 0,
+   "tip": "these + 複數：這些"
+  },
+  {
+   "en": "Zac, don't do that, please.",
+   "hl": "Zac, [[don't do]] that, [[please]].",
+   "gz": "否定祈使句",
+   "o": [
+    "Zac，請那樣做。",
+    "Zac，請不要那樣做。",
+    "Zac 不會那樣做。"
+   ],
+   "a": 1,
+   "tip": "don't + 原形：不要…"
+  },
+  {
+   "en": "Look behind you, Zac.",
+   "hl": "Look behind [[you]], Zac.",
+   "gz": "受格you",
+   "o": [
+    "Zac，看我的後面。",
+    "Zac，看他的後面。",
+    "Zac，看你的後面。"
+   ],
+   "a": 2,
+   "tip": "介系詞後用受格 you"
+  },
+  {
+   "en": "Don't eat or drink.",
+   "hl": "[[Don't]] eat [[or]] drink.",
+   "gz": "否定祈使句 + or",
+   "o": [
+    "可以吃東西或喝飲料。",
+    "不要吃東西，但可以喝飲料。",
+    "不要吃東西或喝飲料。"
+   ],
+   "a": 2,
+   "tip": "否定句中的 or：兩樣都不要"
+  },
+  {
+   "en": "Let's not stand here.",
+   "hl": "[[Let's not]] stand here.",
+   "gz": "Let's not + 原形",
+   "o": [
+    "我們別站在這裡吧。",
+    "我們站在這裡吧。",
+    "你別站在這裡。"
+   ],
+   "a": 0,
+   "tip": "Let's not：我們別…吧"
+  },
+  {
+   "en": "Can he cook? Yes, he can.",
+   "hl": "[[Can]] he [[cook]]? Yes, he [[can]].",
+   "gz": "can問答",
+   "o": [
+    "他會煮飯嗎？不，他不會。",
+    "他會煮飯嗎？是的，他會。",
+    "她會煮飯嗎？是的，她會。"
+   ],
+   "a": 1,
+   "tip": "Yes, he can. 肯定簡答"
+  },
+  {
+   "en": "Can they jump rope? No, they can't.",
+   "hl": "[[Can]] they jump rope? No, they [[can't]].",
+   "gz": "can問答（否定）",
+   "o": [
+    "他們會跳繩嗎？不，他們不會。",
+    "他們會跳繩嗎？是的，他們會。",
+    "他會跳繩嗎？不，他不會。"
+   ],
+   "a": 0,
+   "tip": "No, they can't. 否定簡答"
+  },
+  {
+   "en": "What can he do? He can cook.",
+   "hl": "[[What can]] he [[do]]? He [[can cook]].",
+   "gz": "What can…do?",
+   "o": [
+    "她會做什麼？她會煮飯。",
+    "他會做什麼？他會煮飯。",
+    "他會做什麼？他不會煮飯。"
+   ],
+   "a": 1,
+   "tip": "What can…do? 問會做什麼"
+  },
+  {
+   "en": "Please follow these lab rules and be safe.",
+   "hl": "[[Please follow]] [[these]] lab rules and [[be]] safe.",
+   "gz": "Please祈使句",
+   "o": [
+    "請遵守那些實驗室規則並注意安全。",
+    "請遵守這條實驗室規則並注意安全。",
+    "請遵守這些實驗室規則並注意安全。"
+   ],
+   "a": 2,
+   "tip": "these rules：這些規則"
+  },
+  {
+   "en": "Do not run in the lab.",
+   "hl": "[[Do not]] run in the lab.",
+   "gz": "否定祈使句",
+   "o": [
+    "要在實驗室裡跑。",
+    "我們別在實驗室裡跑吧。",
+    "不要在實驗室裡跑。"
+   ],
+   "a": 2,
+   "tip": "Do not = Don't：不要…"
+  },
+  {
+   "en": "Wash your hands after class.",
+   "hl": "[[Wash]] [[your]] hands after class.",
+   "gz": "祈使句肯定",
+   "o": [
+    "下課後要洗你的手。",
+    "下課後不要洗你的手。",
+    "下課後要洗他的手。"
+   ],
+   "a": 0,
+   "tip": "原形動詞開頭；your 你的"
+  },
+  {
+   "en": "They are nice to me, and I am nice to them, too.",
+   "hl": "They are nice to [[me]], and I am nice to [[them]], too.",
+   "gz": "受格me / them",
+   "o": [
+    "他們對我很好，我也對她很好。",
+    "他們對我很好，我也對他們很好。",
+    "他們對你很好，你也對他們很好。"
+   ],
+   "a": 1,
+   "tip": "me 我；them 他們（受格）"
+  },
+  {
+   "en": "Look at the sign. You can't eat here.",
+   "hl": "[[Look]] at the sign. You [[can't eat]] here.",
+   "gz": "can't否定句",
+   "o": [
+    "看那個標誌。你不能在這裡吃東西。",
+    "看那個標誌。你可以在這裡吃東西。",
+    "看那些標誌。你不能在這裡吃東西。"
+   ],
+   "a": 0,
+   "tip": "can't + 原形：不可以…"
+  },
+  {
+   "en": "Wait for your turn.",
+   "hl": "[[Wait]] for [[your]] turn.",
+   "gz": "祈使句肯定",
+   "o": [
+    "不要等候輪到你。",
+    "等候輪到你。",
+    "等候輪到我。"
+   ],
+   "a": 1,
+   "tip": "原形動詞開頭；your 你的"
+  },
+  {
+   "en": "Please... no mummies or dinosaurs this time.",
+   "hl": "[[Please]]... [[no]] mummies [[or]] dinosaurs this time.",
+   "gz": "no...or 否定",
+   "o": [
+    "拜託……這次要有木乃伊或恐龍。",
+    "拜託……這次不要有木乃伊，要有恐龍。",
+    "拜託……這次不要有木乃伊或恐龍。"
+   ],
+   "a": 2,
+   "tip": "否定中的 or：兩樣都不要"
+  }
+ ]
+}

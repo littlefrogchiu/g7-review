@@ -1,0 +1,1086 @@
+{
+ "grammar": [
+  {
+   "q": "Joe: Is our new house big?\nLiz: Yes, ____.",
+   "o": [
+    "it is",
+    "it's small",
+    "it's old and small",
+    "it's old"
+   ],
+   "a": 0,
+   "tip": "肯定簡答 Yes, it is，不可縮寫成 it's"
+  },
+  {
+   "q": "Ann: ____ your mother a housewife?\nSue: Yes, ____.",
+   "o": [
+    "Are; I am",
+    "Am; you are",
+    "Is; she is",
+    "Is; he is"
+   ],
+   "a": 2,
+   "tip": "your mother 單數用 Is；媽媽→she"
+  },
+  {
+   "q": "Patty and I are classmates. Miss Young is ____ teacher.",
+   "o": [
+    "their",
+    "our",
+    "your",
+    "her"
+   ],
+   "a": 1,
+   "tip": "Patty and I = we → 所有格 our"
+  },
+  {
+   "q": "Lisa: Is that tall boy your brother?\nEarl: Yes, ____.",
+   "o": [
+    "it is",
+    "that is",
+    "you are",
+    "he is"
+   ],
+   "a": 3,
+   "tip": "boy 是男生，簡答代名詞用 he"
+  },
+  {
+   "q": "Bob: Who's ____?\nAnn: She's our new teacher.",
+   "o": [
+    "that tall woman",
+    "Lisa's husband",
+    "Mr. Lin's son",
+    "that short boy"
+   ],
+   "a": 0,
+   "tip": "答句用 She → 問的是女性"
+  },
+  {
+   "q": "Ron: ____ you a housewife?\nLiz: Yes, ____.",
+   "o": [
+    "Are; I'm",
+    "Is; she is",
+    "Are; I am",
+    "Are; you're"
+   ],
+   "a": 2,
+   "tip": "you 配 Are；肯定簡答 I am 不可縮寫"
+  },
+  {
+   "q": "Gina: Is our school big?\nBeth: No, ____ isn't. It ____ small.",
+   "o": [
+    "our school; isn't",
+    "it; is",
+    "our school; is",
+    "it; isn't"
+   ],
+   "a": 1,
+   "tip": "簡答用代名詞 it；學校小→It is small"
+  },
+  {
+   "q": "Bob: ____ our classroom?\nKen: ____ really big.",
+   "o": [
+    "How are; They're",
+    "Are; They're",
+    "Is; It's",
+    "How's; It's"
+   ],
+   "a": 3,
+   "tip": "How's 問狀況；classroom 單數→It's"
+  },
+  {
+   "q": "Ken: Is that beautiful girl happy?\nPat: No, ____.",
+   "o": [
+    "she's very sad",
+    "she's a happy girl",
+    "that's not",
+    "she is"
+   ],
+   "a": 0,
+   "tip": "No 之後要說不快樂→she's very sad"
+  },
+  {
+   "q": "Jill: ____ you a student, Hank?\nHank: Yes, ____.",
+   "o": [
+    "Is; he is a student",
+    "Are; I'm",
+    "Are; I'm a student",
+    "Is; he's"
+   ],
+   "a": 2,
+   "tip": "you 配 Are；Yes, I'm 不可單獨結尾"
+  },
+  {
+   "q": "Alex: Your wife is ____.\nMark: Thanks.",
+   "o": [
+    "big",
+    "beautiful",
+    "small",
+    "short"
+   ],
+   "a": 1,
+   "tip": "稱讚太太美麗，對方才說謝謝"
+  },
+  {
+   "q": "You are a student. I'm a student, ____.",
+   "o": [
+    "very",
+    "really",
+    "here",
+    "too"
+   ],
+   "a": 3,
+   "tip": "肯定句「也」放句尾用 too"
+  },
+  {
+   "q": "Charles is my ____. He is my father's brother.",
+   "o": [
+    "uncle",
+    "aunt",
+    "cousin",
+    "husband"
+   ],
+   "a": 0,
+   "tip": "爸爸的兄弟 = uncle 叔伯"
+  },
+  {
+   "q": "Mr. and Mrs. Lin are ____ and ____. Their son is a doctor.",
+   "o": [
+    "brother; sister",
+    "father; brother",
+    "husband; wife",
+    "mother; son"
+   ],
+   "a": 2,
+   "tip": "林先生和林太太是夫妻"
+  },
+  {
+   "q": "The ____ on TV is Jolin. Her song is good.",
+   "o": [
+    "cook",
+    "singer",
+    "nurse",
+    "writer"
+   ],
+   "a": 1,
+   "tip": "有歌(song)→歌手 singer"
+  },
+  {
+   "q": "Eric: Hi, David. How are you?\nDavid: Fine, thanks. ____\nEric: I'm fine. Thank you.",
+   "o": [
+    "You're welcome.",
+    "How do you do?",
+    "Nice to meet you.",
+    "And you?"
+   ],
+   "a": 3,
+   "tip": "回答後反問對方：And you?"
+  },
+  {
+   "q": "Eric: ____ is my friend, Amy.\nDavid: Nice to meet you, Amy.",
+   "o": [
+    "This",
+    "He",
+    "They",
+    "Her"
+   ],
+   "a": 0,
+   "tip": "介紹別人用 This is…"
+  },
+  {
+   "q": "David: Are you a nurse, Amy?\nAmy: No, ____. I'm an English teacher.",
+   "o": [
+    "I am",
+    "I'm a nurse",
+    "I'm not",
+    "I amn't"
+   ],
+   "a": 2,
+   "tip": "否定簡答 I'm not；am not 不可縮寫"
+  },
+  {
+   "q": "Amy: That tall man is my cousin. He is Aunt Milly's ____.",
+   "o": [
+    "husband",
+    "son",
+    "uncle",
+    "daughter"
+   ],
+   "a": 1,
+   "tip": "阿姨的兒子是表哥 → son"
+  },
+  {
+   "q": "May: ____ is he?\nAmy: He is twenty-four years old.",
+   "o": [
+    "Who",
+    "What",
+    "How",
+    "How old"
+   ],
+   "a": 3,
+   "tip": "回答年齡 → How old"
+  },
+  {
+   "q": "Amy: My cousin is ____ old. He's a teacher.",
+   "o": [
+    "twenty-four years",
+    "24",
+    "twenty-four-year",
+    "twenty-four year"
+   ],
+   "a": 0,
+   "tip": "幾歲：數字 + years old"
+  },
+  {
+   "q": "May: Is your cousin a student?\nAmy: ____ He is a teacher.",
+   "o": [
+    "Yes, he is.",
+    "Yes, he is a teacher.",
+    "No, he isn't.",
+    "No, he is a student."
+   ],
+   "a": 2,
+   "tip": "他是老師不是學生→No, he isn't."
+  },
+  {
+   "q": "Amy: Nick and Ben are in Class 702. I'm ____ teacher.",
+   "o": [
+    "your",
+    "their",
+    "his",
+    "they"
+   ],
+   "a": 1,
+   "tip": "Nick and Ben = they → their"
+  },
+  {
+   "q": "My mother ____ a housewife.",
+   "o": [
+    "am",
+    "are",
+    "be",
+    "is"
+   ],
+   "a": 3,
+   "tip": "My mother 第三人稱單數 → is"
+  },
+  {
+   "q": "He is ____ office worker.",
+   "o": [
+    "an",
+    "a",
+    "are",
+    "am"
+   ],
+   "a": 0,
+   "tip": "office 母音開頭 → an"
+  },
+  {
+   "q": "Zoe is ____ beautiful office worker.",
+   "o": [
+    "an",
+    "are",
+    "a",
+    "is"
+   ],
+   "a": 2,
+   "tip": "冠詞看後面 beautiful，子音→a"
+  },
+  {
+   "q": "Paul is a singer. He is old. → Paul is ____.",
+   "o": [
+    "a old singer",
+    "an old singer",
+    "old a singer",
+    "a singer old"
+   ],
+   "a": 1,
+   "tip": "a/an + 形容詞 + 名詞；old 母音→an"
+  },
+  {
+   "q": "Max is a doctor. He is tall. → Max is ____.",
+   "o": [
+    "an tall doctor",
+    "tall a doctor",
+    "a doctor tall",
+    "a tall doctor"
+   ],
+   "a": 3,
+   "tip": "形容詞放名詞前：a tall doctor"
+  },
+  {
+   "q": "A: Are you a doctor?\nB: No, ____. I'm a nurse.",
+   "o": [
+    "I'm not",
+    "I amn't",
+    "you aren't",
+    "I am"
+   ],
+   "a": 0,
+   "tip": "you 問 I 答；am not 不能縮成 amn't"
+  },
+  {
+   "q": "A: Who is she?\nB: ____",
+   "o": [
+    "Yes, she is.",
+    "She is a aunt.",
+    "She's my aunt.",
+    "No, she isn't."
+   ],
+   "a": 2,
+   "tip": "Who 問句不用 Yes/No 回答"
+  },
+  {
+   "q": "A: Is Mrs. Brown a nurse?\nB: No, ____. She's a doctor.",
+   "o": [
+    "she not",
+    "she's not",
+    "he isn't",
+    "she isn't not"
+   ],
+   "a": 1,
+   "tip": "Mrs. 是女性；否定 she's not"
+  },
+  {
+   "q": "A: How old is your baby brother?\nB: ____",
+   "o": [
+    "He's one years old.",
+    "He's one-year old.",
+    "He's a baby old.",
+    "He's one year old."
+   ],
+   "a": 3,
+   "tip": "一歲用單數 year：one year old"
+  },
+  {
+   "q": "Zac: Is he your brother, Jamie?\nJamie: ____ He's my cousin, Max.",
+   "o": [
+    "No, he isn't.",
+    "Yes, he is.",
+    "No, I'm not.",
+    "No, she isn't."
+   ],
+   "a": 0,
+   "tip": "他是表哥不是哥哥 → No, he isn't."
+  },
+  {
+   "q": "That's Zac's sister. ____ name is Sophie.",
+   "o": [
+    "His",
+    "She",
+    "Her",
+    "Its"
+   ],
+   "a": 2,
+   "tip": "sister 女生，所有格 her + name"
+  },
+  {
+   "q": "Look at that dog. ____ name is Lucky.",
+   "o": [
+    "It's",
+    "Its",
+    "It",
+    "Their"
+   ],
+   "a": 1,
+   "tip": "它的→Its；It's = It is"
+  },
+  {
+   "q": "Yuki and Jamie are students. Zac is ____ new classmate.",
+   "o": [
+    "they",
+    "his",
+    "her",
+    "their"
+   ],
+   "a": 3,
+   "tip": "Yuki and Jamie = they → their"
+  },
+  {
+   "q": "A: ____ is that young woman?\nB: She's my aunt.",
+   "o": [
+    "Who",
+    "How",
+    "How old",
+    "Who's"
+   ],
+   "a": 0,
+   "tip": "問身分用 Who；Who's is 重複 be 動詞"
+  },
+  {
+   "q": "____ Kim Jamie's sister?",
+   "o": [
+    "Are",
+    "Am",
+    "Is",
+    "Who"
+   ],
+   "a": 2,
+   "tip": "Kim 單數，問句 Is 放句首"
+  },
+  {
+   "q": "You and I ____ classmates.",
+   "o": [
+    "am",
+    "are",
+    "is",
+    "be"
+   ],
+   "a": 1,
+   "tip": "You and I = we → are"
+  },
+  {
+   "q": "Mr. Parker is Jamie's dad. Mrs. Parker is Mr. Parker's ____.",
+   "o": [
+    "husband",
+    "daughter",
+    "son",
+    "wife"
+   ],
+   "a": 3,
+   "tip": "Parker 太太是 Parker 先生的妻子"
+  },
+  {
+   "q": "Kim is Mr. and Mrs. Parker's ____. She is Jamie's sister.",
+   "o": [
+    "daughter",
+    "son",
+    "aunt",
+    "wife"
+   ],
+   "a": 0,
+   "tip": "女生、父母的孩子 → daughter"
+  },
+  {
+   "q": "My mother's sister is my ____.",
+   "o": [
+    "uncle",
+    "cousin",
+    "aunt",
+    "daughter"
+   ],
+   "a": 2,
+   "tip": "媽媽的姊妹 = aunt 阿姨"
+  },
+  {
+   "q": "A: ____ your cousin a police officer?\nB: Yes, he is.",
+   "o": [
+    "Are",
+    "Is",
+    "Am",
+    "Who"
+   ],
+   "a": 1,
+   "tip": "your cousin 單數 → Is"
+  },
+  {
+   "q": "My dad ____ a teacher. He's a writer.",
+   "o": [
+    "aren't",
+    "not",
+    "amn't",
+    "isn't"
+   ],
+   "a": 3,
+   "tip": "dad 單數否定 → isn't"
+  },
+  {
+   "q": "____ thirteen, and my sister is ten.",
+   "o": [
+    "I'm",
+    "I",
+    "My",
+    "Me"
+   ],
+   "a": 0,
+   "tip": "主詞 + be：I'm = I am"
+  },
+  {
+   "q": "Which sentence is correct?",
+   "o": [
+    "She not a doctor.",
+    "She isn't not a doctor.",
+    "She's not a doctor.",
+    "She's no a doctor."
+   ],
+   "a": 2,
+   "tip": "否定：she's not / she isn't"
+  },
+  {
+   "q": "I am not a nurse. = ____",
+   "o": [
+    "I amn't a nurse.",
+    "I'm not a nurse.",
+    "I'm not nurse.",
+    "I not am a nurse."
+   ],
+   "a": 1,
+   "tip": "am not 只能縮成 I'm not"
+  },
+  {
+   "q": "A: Are you and Ann sisters?\nB: Yes, ____.",
+   "o": [
+    "you are",
+    "they are",
+    "we're",
+    "we are"
+   ],
+   "a": 3,
+   "tip": "you and Ann → 答 we；簡答不縮寫"
+  },
+  {
+   "q": "A: Is Ms. Chen tall?\nB: No, she ____. She ____ short.",
+   "o": [
+    "isn't; is",
+    "is; isn't",
+    "isn't; isn't",
+    "aren't; is"
+   ],
+   "a": 0,
+   "tip": "不高→isn't；她矮→is short"
+  },
+  {
+   "q": "Tom is ____ junior high school student, and Amy is ____ elementary school student.",
+   "o": [
+    "an; a",
+    "a; a",
+    "a; an",
+    "an; an"
+   ],
+   "a": 2,
+   "tip": "junior 子音→a；elementary 母音→an"
+  },
+  {
+   "q": "A: Is Lucky a small dog?\nB: No, ____. It's a big dog.",
+   "o": [
+    "it is",
+    "it's not",
+    "it's",
+    "they aren't"
+   ],
+   "a": 1,
+   "tip": "Lucky 是狗→it；否定 it's not"
+  }
+ ],
+ "fix": [
+  {
+   "t": "[[My mother]] [[are]] [[a]] [[housewife]].",
+   "e": 1,
+   "o": [
+    "am",
+    "is",
+    "be"
+   ],
+   "a": 1,
+   "tip": "My mother 單數 → is"
+  },
+  {
+   "t": "A: [[Is]] [[your]] father a cook?\nB: Yes, [[he's]].",
+   "e": 2,
+   "o": [
+    "he is",
+    "he's is",
+    "it is"
+   ],
+   "a": 0,
+   "tip": "肯定簡答不可縮寫 → he is"
+  },
+  {
+   "t": "A: [[Are]] you a nurse?\nB: No, [[I amn't]]. [[I'm]] a doctor.",
+   "e": 1,
+   "o": [
+    "I not",
+    "you aren't",
+    "I'm not"
+   ],
+   "a": 2,
+   "tip": "am not 不能縮寫成 amn't"
+  },
+  {
+   "t": "[[Max]] [[is]] [[twenty-nine]] [[year]] old.",
+   "e": 3,
+   "o": [
+    "year's",
+    "years",
+    "age"
+   ],
+   "a": 1,
+   "tip": "兩歲以上用 years old"
+  },
+  {
+   "t": "[[That's]] [[Zac sister]], Sophie. [[She's]] a [[nurse]].",
+   "e": 1,
+   "o": [
+    "Zac's sister",
+    "Zacs' sister",
+    "Zac's sister's"
+   ],
+   "a": 0,
+   "tip": "名字所有格：Zac's sister"
+  },
+  {
+   "t": "[[He]] wife is a doctor, and [[he]] [[is]] [[a]] teacher.",
+   "e": 0,
+   "o": [
+    "He's",
+    "Her",
+    "His"
+   ],
+   "a": 2,
+   "tip": "他的太太 → 所有格 His"
+  },
+  {
+   "t": "A: [[Who]] [[is]] that tall woman?\nB: [[He's]] my [[aunt]].",
+   "e": 2,
+   "o": [
+    "Her",
+    "She's",
+    "It's"
+   ],
+   "a": 1,
+   "tip": "woman 女性 → She's"
+  },
+  {
+   "t": "A: [[How]] is your cousin?\nB: [[He's]] [[fifteen]] [[years old]].",
+   "e": 0,
+   "o": [
+    "How old",
+    "Who",
+    "What"
+   ],
+   "a": 0,
+   "tip": "答年齡 → How old"
+  },
+  {
+   "t": "[[I]] [[am]] [[an]] [[junior high school]] student.",
+   "e": 2,
+   "o": [
+    "is",
+    "are",
+    "a"
+   ],
+   "a": 2,
+   "tip": "junior 子音開頭 → a"
+  },
+  {
+   "t": "[[Ann and I]] [[is]] [[good]] [[classmates]].",
+   "e": 1,
+   "o": [
+    "am",
+    "are",
+    "be"
+   ],
+   "a": 1,
+   "tip": "Ann and I = we → are"
+  },
+  {
+   "t": "Paul is [[an]] [[old]] singer. [[His]] wife is [[a]] office worker.",
+   "e": 3,
+   "o": [
+    "an",
+    "is",
+    "are"
+   ],
+   "a": 0,
+   "tip": "office 母音開頭 → an"
+  },
+  {
+   "t": "[[It's]] name is Lucky. [[It's]] [[a]] [[big]] dog.",
+   "e": 0,
+   "o": [
+    "It",
+    "It is",
+    "Its"
+   ],
+   "a": 2,
+   "tip": "它的名字 → 所有格 Its"
+  },
+  {
+   "t": "[[Our]] new teacher [[is]] [[very]] [[youngs]].",
+   "e": 3,
+   "o": [
+    "a young",
+    "young",
+    "yong"
+   ],
+   "a": 1,
+   "tip": "形容詞沒有 -s → young"
+  },
+  {
+   "t": "A: [[Is]] [[you]] a writer?\nB: No, [[I'm]] not.",
+   "e": 0,
+   "o": [
+    "Are",
+    "Am",
+    "Be"
+   ],
+   "a": 0,
+   "tip": "主詞 you 配 Are"
+  },
+  {
+   "t": "Hi, [[I]] [[am]] Jamie, and this is [[I]] [[dear]] family.",
+   "e": 2,
+   "o": [
+    "me",
+    "mine",
+    "my"
+   ],
+   "a": 2,
+   "tip": "我的家人 → my family"
+  },
+  {
+   "t": "[[You]] brother [[is]] [[very]] [[handsome]].",
+   "e": 0,
+   "o": [
+    "You're",
+    "Your",
+    "Yours"
+   ],
+   "a": 1,
+   "tip": "你的哥哥 → Your brother"
+  },
+  {
+   "t": "[[Isn't]] [[his]] [[wife]] [[an]] doctor?",
+   "e": 3,
+   "o": [
+    "a",
+    "is",
+    "are"
+   ],
+   "a": 0,
+   "tip": "doctor 子音開頭 → a"
+  },
+  {
+   "t": "[[My]] [[uncle]] is [[my]] aunt's [[son]].",
+   "e": 1,
+   "o": [
+    "brother",
+    "father",
+    "cousin"
+   ],
+   "a": 2,
+   "tip": "阿姨的兒子是表兄弟 cousin"
+  },
+  {
+   "t": "A: [[Are]] [[you]] and Tom brothers?\nB: Yes, [[we're]]. [[We're]] twins.",
+   "e": 2,
+   "o": [
+    "you are",
+    "we are",
+    "they are"
+   ],
+   "a": 1,
+   "tip": "肯定簡答不縮寫 → we are"
+  },
+  {
+   "t": "A: [[How old]] is your baby?\nB: [[She's]] [[two]] [[year old]].",
+   "e": 3,
+   "o": [
+    "years old",
+    "years' old",
+    "year's old"
+   ],
+   "a": 0,
+   "tip": "two 以上 → years old"
+  },
+  {
+   "t": "A: [[Is]] Mrs. Brown a nurse?\nB: [[No]], [[he's]] not. She's [[a]] doctor.",
+   "e": 2,
+   "o": [
+    "her",
+    "it's",
+    "she's"
+   ],
+   "a": 2,
+   "tip": "Mrs. Brown 女性 → she's"
+  },
+  {
+   "t": "A: [[Are]] Mr. Wang [[a]] police officer?\nB: No, [[he]] [[isn't]].",
+   "e": 0,
+   "o": [
+    "Am",
+    "Is",
+    "Be"
+   ],
+   "a": 1,
+   "tip": "Mr. Wang 單數 → Is"
+  },
+  {
+   "t": "[[That]] [[handsome]] boy [[is]] [[ours]] new classmate.",
+   "e": 3,
+   "o": [
+    "our",
+    "we",
+    "us"
+   ],
+   "a": 0,
+   "tip": "所有格 + 名詞 → our"
+  }
+ ],
+ "sent": [
+  {
+   "en": "Who is he?",
+   "hl": "[[Who]] [[is]] [[he]]?",
+   "gz": "Who問句",
+   "o": [
+    "她是誰？",
+    "他幾歲？",
+    "他是誰？"
+   ],
+   "a": 2,
+   "tip": "Who 問身分；he 是「他」"
+  },
+  {
+   "en": "That's Zac, our new classmate.",
+   "hl": "[[That's]] Zac, [[our]] new classmate.",
+   "gz": "所有格 our",
+   "o": [
+    "那是Zac，我們的新同學。",
+    "那是Zac，他們的新同學。",
+    "那是Zac，你的新同學。"
+   ],
+   "a": 0,
+   "tip": "our = 我們的"
+  },
+  {
+   "en": "That's Zac's sister, Sophie.",
+   "hl": "That's [[Zac's]] sister, Sophie.",
+   "gz": "名字's 所有格",
+   "o": [
+    "那是Sophie的哥哥Zac。",
+    "那是Zac的姊姊Sophie。",
+    "那是Zac，不是Sophie的姊姊。"
+   ],
+   "a": 1,
+   "tip": "Zac's sister = Zac 的姊姊"
+  },
+  {
+   "en": "She's a nurse.",
+   "hl": "[[She's]] [[a]] nurse.",
+   "gz": "be動詞縮寫",
+   "o": [
+    "她不是護理師。",
+    "他是一名護理師。",
+    "她是一名護理師。"
+   ],
+   "a": 2,
+   "tip": "She's = She is，她是"
+  },
+  {
+   "en": "She's very tall.",
+   "hl": "She's [[very]] [[tall]].",
+   "gz": "be動詞 + 形容詞",
+   "o": [
+    "她非常高。",
+    "她不是很高。",
+    "她很高嗎？"
+   ],
+   "a": 0,
+   "tip": "very 非常；肯定直述句"
+  },
+  {
+   "en": "She's beautiful, too.",
+   "hl": "She's beautiful, [[too]].",
+   "gz": "too 也",
+   "o": [
+    "她太漂亮了。",
+    "她也很漂亮。",
+    "她也不漂亮。"
+   ],
+   "a": 1,
+   "tip": "句尾 too = 也，不是「太」"
+  },
+  {
+   "en": "Is he your brother?",
+   "hl": "[[Is]] he [[your]] brother?",
+   "gz": "Yes/No 問句",
+   "o": [
+    "他是我的哥哥嗎？",
+    "她是你的姊姊嗎？",
+    "他是你的哥哥嗎？"
+   ],
+   "a": 2,
+   "tip": "your = 你的；he = 他"
+  },
+  {
+   "en": "No, he isn't. He's my cousin, Max.",
+   "hl": "No, he [[isn't]]. He's [[my]] cousin, Max.",
+   "gz": "否定簡答",
+   "o": [
+    "不，他不是。他是我的表哥Max。",
+    "是的，他是。他是我的表哥Max。",
+    "不，他不是。他是你的表哥Max。"
+   ],
+   "a": 0,
+   "tip": "No, he isn't 否定；my 我的"
+  },
+  {
+   "en": "Is Max a student?",
+   "hl": "[[Is]] Max a student?",
+   "gz": "be動詞疑問句",
+   "o": [
+    "Max是個學生。",
+    "Max是學生嗎？",
+    "Max不是學生。"
+   ],
+   "a": 1,
+   "tip": "Is 放句首 → 疑問句"
+  },
+  {
+   "en": "Really? How old is he?",
+   "hl": "Really? [[How old]] is he?",
+   "gz": "How old 問年齡",
+   "o": [
+    "真的嗎？他是誰？",
+    "真的嗎？他好嗎？",
+    "真的嗎？他幾歲？"
+   ],
+   "a": 2,
+   "tip": "How old 問年紀"
+  },
+  {
+   "en": "He's twenty-nine years old.",
+   "hl": "[[He's]] twenty-nine [[years old]].",
+   "gz": "年齡表達",
+   "o": [
+    "他二十九歲。",
+    "他不是二十九歲。",
+    "他二十九歲嗎？"
+   ],
+   "a": 0,
+   "tip": "數字 + years old = 幾歲"
+  },
+  {
+   "en": "No, I'm not. I'm a nurse.",
+   "hl": "No, [[I'm not]]. [[I'm]] a nurse.",
+   "gz": "否定簡答",
+   "o": [
+    "是的，我是。我是護理師。",
+    "不，我不是。我是護理師。",
+    "不，你不是。你是護理師。"
+   ],
+   "a": 1,
+   "tip": "I'm not = 我不是"
+  },
+  {
+   "en": "She is not a tall girl.",
+   "hl": "She [[is not]] [[a tall girl]].",
+   "gz": "形容詞 + 名詞否定",
+   "o": [
+    "她是個高的女孩。",
+    "她是個高的女孩嗎？",
+    "她不是個高的女孩。"
+   ],
+   "a": 2,
+   "tip": "is not → 不是"
+  },
+  {
+   "en": "We are a family of five.",
+   "hl": "[[We are]] a family of five.",
+   "gz": "be動詞 are",
+   "o": [
+    "我們是五口之家。",
+    "他們是五口之家。",
+    "我們不是五口之家。"
+   ],
+   "a": 0,
+   "tip": "We = 我們"
+  },
+  {
+   "en": "My mom is an office worker.",
+   "hl": "[[My]] mom [[is an]] office worker.",
+   "gz": "a/an + 職業",
+   "o": [
+    "你媽媽是上班族。",
+    "我媽媽是上班族。",
+    "我媽媽不是上班族。"
+   ],
+   "a": 1,
+   "tip": "My = 我的；office 前用 an"
+  },
+  {
+   "en": "My sister is an elementary school student, and I'm a junior high school student.",
+   "hl": "My sister is [[an]] elementary school student, and I'm [[a]] junior high school student.",
+   "gz": "a/an + 名詞",
+   "o": [
+    "我妹妹是國中生，而我是國小生。",
+    "我妹妹不是國小生，而我是國中生。",
+    "我妹妹是國小生，而我是國中生。"
+   ],
+   "a": 2,
+   "tip": "elementary 國小；junior high 國中"
+  },
+  {
+   "en": "My family is very dear to me.",
+   "hl": "[[My]] family [[is]] very dear to me.",
+   "gz": "be動詞 + 形容詞",
+   "o": [
+    "我的家人對我來說非常珍貴。",
+    "你的家人對我來說非常珍貴。",
+    "我的家人對我來說不重要。"
+   ],
+   "a": 0,
+   "tip": "My = 我的；肯定句"
+  },
+  {
+   "en": "Isn't his wife a doctor?",
+   "hl": "[[Isn't]] [[his]] wife a doctor?",
+   "gz": "否定疑問句",
+   "o": [
+    "她的先生不是醫生嗎？",
+    "他的太太不是醫生嗎？",
+    "他的太太是醫生。"
+   ],
+   "a": 1,
+   "tip": "Isn't 開頭 = 不是…嗎？"
+  },
+  {
+   "en": "Who's that beautiful tall woman?",
+   "hl": "[[Who's]] that [[beautiful tall]] woman?",
+   "gz": "Who's 問句",
+   "o": [
+    "那位又漂亮又高的女人幾歲？",
+    "那位又漂亮又高的女人是你阿姨嗎？",
+    "那位又漂亮又高的女人是誰？"
+   ],
+   "a": 2,
+   "tip": "Who's = Who is，問是誰"
+  },
+  {
+   "en": "Julia is Mr. and Mrs. Wilson's daughter.",
+   "hl": "Julia is [[Mr. and Mrs. Wilson's]] daughter.",
+   "gz": "名字's 所有格",
+   "o": [
+    "Julia是Wilson夫婦的女兒。",
+    "Julia不是Wilson夫婦的女兒。",
+    "Julia是Wilson夫婦的女兒嗎？"
+   ],
+   "a": 0,
+   "tip": "名字's 表所有：Wilson 夫婦的"
+  },
+  {
+   "en": "Her son is 17 years old.",
+   "hl": "[[Her]] son is 17 [[years old]].",
+   "gz": "所有格 her",
+   "o": [
+    "他的兒子十七歲。",
+    "她的兒子十七歲。",
+    "她的女兒十七歲。"
+   ],
+   "a": 1,
+   "tip": "Her = 她的"
+  },
+  {
+   "en": "Your father is handsome.",
+   "hl": "[[Your]] father [[is]] handsome.",
+   "gz": "be動詞 + 形容詞",
+   "o": [
+    "你的爸爸很帥嗎？",
+    "我的爸爸很帥。",
+    "你的爸爸很帥。"
+   ],
+   "a": 2,
+   "tip": "Your = 你的；直述句"
+  }
+ ]
+}

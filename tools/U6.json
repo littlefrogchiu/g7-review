@@ -1,0 +1,1099 @@
+{
+ "grammar": [
+  {
+   "q": "Zac: Look. ____ a lion over there.\nYuki: Wow. The king of animals.",
+   "o": [
+    "There's",
+    "There are",
+    "It's",
+    "They're"
+   ],
+   "a": 0,
+   "tip": "a lion 單數 → There's (=There is)"
+  },
+  {
+   "q": "Are there ____ bugs in the zebras' coat?",
+   "o": [
+    "a",
+    "an",
+    "any",
+    "this"
+   ],
+   "a": 2,
+   "tip": "疑問句＋複數名詞 → any"
+  },
+  {
+   "q": "There is a bird ____ on the bike.",
+   "o": [
+    "sing",
+    "singing",
+    "is singing",
+    "sings"
+   ],
+   "a": 1,
+   "tip": "There is＋主詞＋V-ing：有…正在做"
+  },
+  {
+   "q": "____ their favorite singer, Jane, from?",
+   "o": [
+    "Is",
+    "Are",
+    "Where are",
+    "Where is"
+   ],
+   "a": 3,
+   "tip": "問來自哪裡 → Where；singer 單數 → is"
+  },
+  {
+   "q": "Ben: There ____ any erasers in the pencil case.\nLeo: Not really. There are ____ in it.",
+   "o": [
+    "aren't; any",
+    "isn't; any",
+    "aren't; some",
+    "isn't; some"
+   ],
+   "a": 2,
+   "tip": "否定＋複數用 aren't any；肯定句用 some"
+  },
+  {
+   "q": "Cathy: How many boys ____ in your family?\nNina: Only one.",
+   "o": [
+    "is there",
+    "they are",
+    "there are",
+    "are there"
+   ],
+   "a": 3,
+   "tip": "How many＋複數名詞＋are there?"
+  },
+  {
+   "q": "There ____ any tigers in the zoo. I can only see lions.",
+   "o": [
+    "aren't",
+    "is",
+    "are",
+    "isn't"
+   ],
+   "a": 0,
+   "tip": "有 any＋複數 tigers → 否定 aren't"
+  },
+  {
+   "q": "Listen! There is a baby ____ in the room.",
+   "o": [
+    "cry",
+    "crying",
+    "cries",
+    "is crying"
+   ],
+   "a": 1,
+   "tip": "There is＋主詞＋V-ing；cry → crying"
+  },
+  {
+   "q": "Meg: Are there any zebras here?\nEmi: Yes, ____ are. ____ really beautiful.",
+   "o": [
+    "they; They're",
+    "there; There are",
+    "they; There are",
+    "there; They're"
+   ],
+   "a": 3,
+   "tip": "簡答用 there are；牠們很美用 They're"
+  },
+  {
+   "q": "Sam: Are ____ any monkeys here?\nBob: No. ____ over there.",
+   "o": [
+    "they; They're",
+    "there; They're",
+    "there; There are",
+    "they; There are"
+   ],
+   "a": 1,
+   "tip": "問「有沒有」用 Are there；牠們在那裡 They're"
+  },
+  {
+   "q": "Rita: Are there four bedrooms in your house?\nElla: No, ____ one bedroom in my house.",
+   "o": [
+    "it is",
+    "they are",
+    "there is",
+    "there are"
+   ],
+   "a": 2,
+   "tip": "one bedroom 單數 → there is"
+  },
+  {
+   "q": "Mom is not at home. Can you ____ me clean up the house?",
+   "o": [
+    "help",
+    "provide",
+    "give",
+    "turn"
+   ],
+   "a": 0,
+   "tip": "help 某人 做某事：幫忙"
+  },
+  {
+   "q": "My favorite animals are ____ because I like black and white.",
+   "o": [
+    "zebras",
+    "lions",
+    "elephants",
+    "foxes"
+   ],
+   "a": 0,
+   "tip": "黑白相間的是斑馬 zebras"
+  },
+  {
+   "q": "____ are brown, and they like to eat bananas.",
+   "o": [
+    "Experts",
+    "Bugs",
+    "Monkeys",
+    "Fans"
+   ],
+   "a": 2,
+   "tip": "愛吃香蕉的棕色動物 → 猴子"
+  },
+  {
+   "q": "The bus is ____ of people. Let's wait for the next one.",
+   "o": [
+    "careful",
+    "full",
+    "lucky",
+    "nervous"
+   ],
+   "a": 1,
+   "tip": "be full of：充滿…；公車客滿"
+  },
+  {
+   "q": "____ only one Earth. Let's keep it clean.",
+   "o": [
+    "It is",
+    "It isn't",
+    "There are",
+    "There is"
+   ],
+   "a": 3,
+   "tip": "「有」一個地球 → There is＋單數"
+  },
+  {
+   "q": "We have only one Earth. Let's ____ it clean and safe.",
+   "o": [
+    "to keep",
+    "keeps",
+    "keep",
+    "keeping"
+   ],
+   "a": 2,
+   "tip": "Let's＋原形動詞"
+  },
+  {
+   "q": "There ____ many bugs in the zebras' coat.",
+   "o": [
+    "is",
+    "isn't",
+    "be",
+    "are"
+   ],
+   "a": 3,
+   "tip": "many bugs 複數 → There are"
+  },
+  {
+   "q": "Is there ____ elephant over there?",
+   "o": [
+    "an",
+    "a",
+    "not",
+    "the"
+   ],
+   "a": 0,
+   "tip": "elephant 母音開頭 → an"
+  },
+  {
+   "q": "There is ____ dog in the house. (= There isn't a dog in the house.)",
+   "o": [
+    "an",
+    "no",
+    "the",
+    "our"
+   ],
+   "a": 1,
+   "tip": "There is no＋名詞＝There isn't a…"
+  },
+  {
+   "q": "There aren't ____ books under the sofa.",
+   "o": [
+    "no",
+    "some",
+    "the",
+    "any"
+   ],
+   "a": 3,
+   "tip": "否定句＋複數 → any；不用 some"
+  },
+  {
+   "q": "Grace: ____ many pencils in your pencil box?\nAllen: No, there's only one.",
+   "o": [
+    "Are they",
+    "Are there",
+    "Is there",
+    "Is it"
+   ],
+   "a": 1,
+   "tip": "many pencils 複數 → Are there"
+  },
+  {
+   "q": "____ are many animals in the Taipei Zoo.",
+   "o": [
+    "They",
+    "Those",
+    "There",
+    "These"
+   ],
+   "a": 2,
+   "tip": "「有」很多動物 → There are"
+  },
+  {
+   "q": "There are many ____ in the box.",
+   "o": [
+    "eggs",
+    "an egg",
+    "egg",
+    "some eggs"
+   ],
+   "a": 0,
+   "tip": "many＋複數名詞；不可再加 some"
+  },
+  {
+   "q": "A: ____\nB: Yes, there are. There are five pens in the pencil box.",
+   "o": [
+    "Are there five pens in the pencil box?",
+    "Are there five rulers in the pencil box?",
+    "Is there a pen in the pencil box?",
+    "Are they pens?"
+   ],
+   "a": 0,
+   "tip": "答句說五枝筆 → Are there five pens…?"
+  },
+  {
+   "q": "Alex: I'm hungry.\nDora: There ____ some food on the table.",
+   "o": [
+    "are",
+    "be",
+    "is",
+    "am"
+   ],
+   "a": 2,
+   "tip": "food 不可數 → There is"
+  },
+  {
+   "q": "Tony: Are there any parks near your house?\nAlex: Yes, ____.",
+   "o": [
+    "they are",
+    "there are",
+    "there is",
+    "it is"
+   ],
+   "a": 1,
+   "tip": "Are there…? 肯定簡答 Yes, there are."
+  },
+  {
+   "q": "Ted: Are there two tigers and one monkey in the zoo?\nBen: No, ____.",
+   "o": [
+    "there isn't",
+    "they aren't",
+    "not there",
+    "there aren't"
+   ],
+   "a": 3,
+   "tip": "Are there…? 否定簡答 No, there aren't."
+  },
+  {
+   "q": "Melisa: Look! ____ a boy at the door.\nSam: Oh, he's Mrs. White's son.",
+   "o": [
+    "There",
+    "There are",
+    "There is",
+    "Here are"
+   ],
+   "a": 2,
+   "tip": "a boy 單數 → There is"
+  },
+  {
+   "q": "Leon: What is there in the box?\nBilly: ____",
+   "o": [
+    "No, there isn't.",
+    "Yes, there is.",
+    "They are a cat.",
+    "There is a cat."
+   ],
+   "a": 3,
+   "tip": "What 問句不能用 Yes/No 回答"
+  },
+  {
+   "q": "How many students ____ in your class?",
+   "o": [
+    "are there",
+    "are they",
+    "is there",
+    "there are"
+   ],
+   "a": 0,
+   "tip": "How many＋複數＋are there?"
+  },
+  {
+   "q": "How many ____ are there on the farm?",
+   "o": [
+    "horse",
+    "horses",
+    "a horse",
+    "the horse"
+   ],
+   "a": 1,
+   "tip": "How many＋複數名詞 horses"
+  },
+  {
+   "q": "Zac: There are some elephants ____ the lion.\nYuki: Oh, I can see them now.",
+   "o": [
+    "on",
+    "between",
+    "under",
+    "behind"
+   ],
+   "a": 3,
+   "tip": "在獅子後面 → behind"
+  },
+  {
+   "q": "The baby elephants are ____ cute, and they are playing with their parents.",
+   "o": [
+    "some",
+    "so",
+    "any",
+    "many"
+   ],
+   "a": 1,
+   "tip": "so＋形容詞：如此地"
+  },
+  {
+   "q": "A: Is there a TV in the room?\nB: No, ____.",
+   "o": [
+    "it isn't",
+    "there aren't",
+    "there isn't",
+    "they aren't"
+   ],
+   "a": 2,
+   "tip": "Is there…? 否定簡答 No, there isn't."
+  },
+  {
+   "q": "There ____ two dogs and a cat under the chair.",
+   "o": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ],
+   "a": 0,
+   "tip": "two dogs 複數在前 → There are"
+  },
+  {
+   "q": "There is ____ apple and there are ____ bananas on the table.",
+   "o": [
+    "an; some",
+    "an; any",
+    "a; some",
+    "a; any"
+   ],
+   "a": 0,
+   "tip": "apple 母音 → an；肯定句用 some"
+  },
+  {
+   "q": "A: Are there any bears in the zoo?\nB: No, there aren't ____ bears in the zoo.",
+   "o": [
+    "some",
+    "a",
+    "any",
+    "an"
+   ],
+   "a": 2,
+   "tip": "否定句＋複數 → any"
+  },
+  {
+   "q": "There ____ a girl next to the bush.",
+   "o": [
+    "are",
+    "is",
+    "has",
+    "have"
+   ],
+   "a": 1,
+   "tip": "表「有」用 There is，不用 has"
+  },
+  {
+   "q": "A: What's that on the zebra's ____?\nB: It's an oxpecker.",
+   "o": [
+    "food",
+    "world",
+    "king",
+    "back"
+   ],
+   "a": 3,
+   "tip": "on the zebra's back：斑馬背上"
+  },
+  {
+   "q": "____ each other's help, the oxpeckers are full and happy.",
+   "o": [
+    "Thanks for",
+    "Thank you",
+    "Thanks to",
+    "Thanks with"
+   ],
+   "a": 2,
+   "tip": "thanks to＋名詞：幸虧…"
+  },
+  {
+   "q": "In the animal world, some animals can ____ each other.",
+   "o": [
+    "helps",
+    "helping",
+    "to help",
+    "help"
+   ],
+   "a": 3,
+   "tip": "can＋原形動詞"
+  },
+  {
+   "q": "A: ____ there a pencil on the desk?\nB: No, there isn't.",
+   "o": [
+    "Is",
+    "Are",
+    "Be",
+    "Am"
+   ],
+   "a": 0,
+   "tip": "a pencil 單數 → Is there"
+  },
+  {
+   "q": "A: Are there five chairs in the room?\nB: No, there aren't. There ____ only four.",
+   "o": [
+    "is",
+    "are",
+    "isn't",
+    "aren't"
+   ],
+   "a": 1,
+   "tip": "four (chairs) 複數 → There are"
+  },
+  {
+   "q": "Look! There ____ a bug in the pencil box.",
+   "o": [
+    "are",
+    "aren't",
+    "be",
+    "is"
+   ],
+   "a": 3,
+   "tip": "a bug 單數 → There is"
+  },
+  {
+   "q": "A: Is there any water in the bottle?\nB: No, there ____.",
+   "o": [
+    "aren't",
+    "isn't",
+    "is",
+    "are"
+   ],
+   "a": 1,
+   "tip": "water 不可數 → is；否定簡答 isn't"
+  },
+  {
+   "q": "A: ____ there in the bag?\nB: There are two books and a pen.",
+   "o": [
+    "How many",
+    "What are",
+    "What is",
+    "Where is"
+   ],
+   "a": 2,
+   "tip": "問某處有什麼 → What is there…?"
+  }
+ ],
+ "fix": [
+  {
+   "t": "[[There are]] a lion [[over there]], and [[it is]] the king of animals.",
+   "e": 0,
+   "o": [
+    "There is",
+    "There has",
+    "They are"
+   ],
+   "a": 0,
+   "tip": "a lion 單數 → There is"
+  },
+  {
+   "t": "There [[aren't]] [[some]] zebras [[in]] the zoo.",
+   "e": 1,
+   "o": [
+    "a",
+    "any",
+    "an"
+   ],
+   "a": 1,
+   "tip": "否定句用 any，不用 some"
+  },
+  {
+   "t": "[[Are]] there [[any]] tigers [[in]] Africa? No, [[they aren't]].",
+   "e": 3,
+   "o": [
+    "they are",
+    "there isn't",
+    "there aren't"
+   ],
+   "a": 2,
+   "tip": "Are there…? 簡答用 there aren't"
+  },
+  {
+   "t": "There [[is]] [[some]] [[foods]] on the [[table]].",
+   "e": 2,
+   "o": [
+    "any food",
+    "food",
+    "a foods"
+   ],
+   "a": 1,
+   "tip": "food 不可數，不加 s"
+  },
+  {
+   "t": "How many [[horse]] [[are]] [[there]] on the farm?",
+   "e": 0,
+   "o": [
+    "a horse",
+    "horsees",
+    "horses"
+   ],
+   "a": 2,
+   "tip": "How many＋複數名詞"
+  },
+  {
+   "t": "There [[are]] [[a]] big rat [[in]] the [[kitchen]].",
+   "e": 0,
+   "o": [
+    "is",
+    "have",
+    "be"
+   ],
+   "a": 0,
+   "tip": "a big rat 單數 → There is"
+  },
+  {
+   "t": "[[Is]] there [[a]] bird [[on]] the dog's back? Yes, [[it is]].",
+   "e": 3,
+   "o": [
+    "there is",
+    "they is",
+    "there's"
+   ],
+   "a": 0,
+   "tip": "簡答用 there is，不可縮寫"
+  },
+  {
+   "t": "There [[are]] [[two]] [[foxs]] [[behind]] the bush.",
+   "e": 2,
+   "o": [
+    "fox",
+    "foxes",
+    "foxies"
+   ],
+   "a": 1,
+   "tip": "x 結尾加 es → foxes"
+  },
+  {
+   "t": "Look! There [[is]] a monkey [[eats]] a banana [[in]] the tree.",
+   "e": 1,
+   "o": [
+    "is eating",
+    "eat",
+    "eating"
+   ],
+   "a": 2,
+   "tip": "There is＋主詞＋V-ing"
+  },
+  {
+   "t": "There [[is]] [[an]] [[elephant]] [[in front]] the bus.",
+   "e": 3,
+   "o": [
+    "front of",
+    "in front of",
+    "in the front"
+   ],
+   "a": 1,
+   "tip": "在…前面 = in front of"
+  },
+  {
+   "t": "[[There is]] [[some]] water in the bottle, but there [[aren't]] [[any]] milk.",
+   "e": 2,
+   "o": [
+    "is",
+    "not",
+    "isn't"
+   ],
+   "a": 2,
+   "tip": "milk 不可數 → isn't"
+  },
+  {
+   "t": "[[Are]] there [[any]] bears in [[the]] zoo? Yes, there [[is]].",
+   "e": 3,
+   "o": [
+    "are",
+    "isn't",
+    "aren't"
+   ],
+   "a": 0,
+   "tip": "bears 複數 → Yes, there are."
+  },
+  {
+   "t": "The baby elephants [[are]] [[so]] cute, and [[they're]] playing with [[they]] parents.",
+   "e": 3,
+   "o": [
+    "their",
+    "them",
+    "there"
+   ],
+   "a": 0,
+   "tip": "名詞前用所有格 their"
+  },
+  {
+   "t": "[[Oxpeckers]] [[is]] a big [[help]] to [[zebras]].",
+   "e": 1,
+   "o": [
+    "am",
+    "are",
+    "be"
+   ],
+   "a": 1,
+   "tip": "Oxpeckers 複數 → are"
+  },
+  {
+   "t": "The oxpeckers can [[cleans]] up the bugs [[for]] the zebras, and the zebras [[can]] provide food.",
+   "e": 0,
+   "o": [
+    "cleaning",
+    "to clean",
+    "clean"
+   ],
+   "a": 2,
+   "tip": "can＋原形動詞"
+  },
+  {
+   "t": "There [[aren't]] [[a]] cat [[under]] the table.",
+   "e": 0,
+   "o": [
+    "don't",
+    "isn't",
+    "not"
+   ],
+   "a": 1,
+   "tip": "a cat 單數 → There isn't"
+  },
+  {
+   "t": "[[How many]] students [[is]] there [[in]] your class?",
+   "e": 1,
+   "o": [
+    "am",
+    "be",
+    "are"
+   ],
+   "a": 2,
+   "tip": "How many＋複數＋are there"
+  },
+  {
+   "t": "[[They are]] some books [[on]] the bed, but there [[aren't]] any books [[in]] the box.",
+   "e": 0,
+   "o": [
+    "There are",
+    "There is",
+    "Their are"
+   ],
+   "a": 0,
+   "tip": "「有」用 There are，不是 They are"
+  },
+  {
+   "t": "There [[is]] a bird [[on]] the [[zebras]] back.",
+   "e": 2,
+   "o": [
+    "zebra's",
+    "zebra",
+    "zebraes"
+   ],
+   "a": 0,
+   "tip": "斑馬的背 → 所有格 zebra's"
+  },
+  {
+   "t": "A: [[Is]] there [[any]] eggs in the box?\nB: No, there [[aren't]].",
+   "e": 0,
+   "o": [
+    "Be",
+    "Are",
+    "Am"
+   ],
+   "a": 1,
+   "tip": "eggs 複數 → Are there"
+  },
+  {
+   "t": "Father elephants [[are]] [[never]] in the herd [[with]] [[they]] family.",
+   "e": 3,
+   "o": [
+    "its",
+    "them",
+    "their"
+   ],
+   "a": 2,
+   "tip": "名詞前用所有格 their"
+  },
+  {
+   "t": "There [[is]] [[not]] [[some]] food [[in]] the box.",
+   "e": 2,
+   "o": [
+    "a",
+    "any",
+    "an"
+   ],
+   "a": 1,
+   "tip": "否定句用 any，不用 some"
+  },
+  {
+   "t": "Look [[at]] the picture. [[There's]] a girl [[next]] the bush.",
+   "e": 2,
+   "o": [
+    "near to",
+    "beside of",
+    "next to"
+   ],
+   "a": 2,
+   "tip": "在…旁邊 = next to"
+  },
+  {
+   "t": "My bag is [[on]] the desk, and there [[is]] [[two]] [[pencil cases]] in it.",
+   "e": 1,
+   "o": [
+    "are",
+    "am",
+    "be"
+   ],
+   "a": 0,
+   "tip": "two pencil cases 複數 → are"
+  },
+  {
+   "t": "[[Is]] [[they]] a lion [[behind]] the tree? No, there [[isn't]].",
+   "e": 1,
+   "o": [
+    "there",
+    "it",
+    "this"
+   ],
+   "a": 0,
+   "tip": "問「有沒有」→ Is there…?"
+  },
+  {
+   "t": "[[What]] [[are]] there [[on]] the chair? There are three notebooks.",
+   "e": 1,
+   "o": [
+    "be",
+    "is",
+    "am"
+   ],
+   "a": 1,
+   "tip": "問某處有什麼 → What is there"
+  }
+ ],
+ "sent": [
+  {
+   "en": "Look. There's a lion over there.",
+   "hl": "Look. [[There's]] a lion [[over there]].",
+   "gz": "There is 肯定句（單數）",
+   "o": [
+    "你看。那裡有一隻獅子。",
+    "你看。那裡沒有獅子。",
+    "你看。那裡有一些獅子。"
+   ],
+   "a": 0,
+   "tip": "There's = There is，表「有一隻」"
+  },
+  {
+   "en": "There are some elephants behind the lion.",
+   "hl": "[[There are some]] elephants [[behind]] the lion.",
+   "gz": "There are＋some＋位置介系詞",
+   "o": [
+    "獅子前面有一些大象。",
+    "獅子後面有一些大象。",
+    "獅子後面沒有任何大象。"
+   ],
+   "a": 1,
+   "tip": "behind 在…後面；There are some 有一些"
+  },
+  {
+   "en": "The baby elephants are so cute, and they are playing with their parents.",
+   "hl": "The baby elephants are so cute, and they [[are playing]] with their parents.",
+   "gz": "現在進行式",
+   "o": [
+    "小象們好可愛，而且牠們每天和爸媽玩。",
+    "小象好可愛，而且牠正在和牠的爸媽玩。",
+    "小象們好可愛，而且牠們正在和爸媽玩。"
+   ],
+   "a": 2,
+   "tip": "are playing → 正在玩；they 複數"
+  },
+  {
+   "en": "Father elephants are never in the herd with their family.",
+   "hl": "Father elephants [[are never]] in the herd with their family.",
+   "gz": "never 從不（be動詞後）",
+   "o": [
+    "大象爸爸從不和家人待在象群裡。",
+    "大象爸爸總是和家人待在象群裡。",
+    "大象爸爸現在不在象群裡。"
+   ],
+   "a": 0,
+   "tip": "never = 從不"
+  },
+  {
+   "en": "Are there any tigers in Africa?",
+   "hl": "[[Are there any]] tigers in Africa?",
+   "gz": "Are there any…? 疑問句",
+   "o": [
+    "非洲有老虎。",
+    "非洲有任何老虎嗎？",
+    "非洲沒有任何老虎。"
+   ],
+   "a": 1,
+   "tip": "Are there any…? 問「有任何…嗎」"
+  },
+  {
+   "en": "No, there aren't. Tigers are from Asia.",
+   "hl": "No, [[there aren't]]. Tigers are from Asia.",
+   "gz": "There are 否定簡答",
+   "o": [
+    "不，沒有。老虎來自亞洲。",
+    "是的，有。老虎來自亞洲。",
+    "不，牠們不是。老虎來自亞洲。"
+   ],
+   "a": 0,
+   "tip": "No, there aren't. = 不，沒有"
+  },
+  {
+   "en": "Oh, look over there. There are many zebras.",
+   "hl": "Oh, look over there. [[There are many]] zebras.",
+   "gz": "There are＋many＋複數",
+   "o": [
+    "喔，看那裡。有一隻斑馬。",
+    "喔，看那裡。沒有很多斑馬。",
+    "喔，看那裡。有很多斑馬。"
+   ],
+   "a": 2,
+   "tip": "There are many → 有很多"
+  },
+  {
+   "en": "What's that on the zebra's back?",
+   "hl": "What's [[that]] [[on]] the [[zebra's back]]?",
+   "gz": "所有格＋位置介系詞 on",
+   "o": [
+    "斑馬背上的那是什麼？",
+    "斑馬後面的那是什麼？",
+    "斑馬背上的那些是什麼？"
+   ],
+   "a": 0,
+   "tip": "on the zebra's back 在斑馬背上；that 單數"
+  },
+  {
+   "en": "Oxpeckers are a big help to zebras.",
+   "hl": "Oxpeckers [[are]] a big help [[to]] zebras.",
+   "gz": "複數主詞＋are",
+   "o": [
+    "斑馬對牛椋鳥是很大的幫助。",
+    "牛椋鳥對斑馬沒什麼幫助。",
+    "牛椋鳥對斑馬是很大的幫助。"
+   ],
+   "a": 2,
+   "tip": "主詞 Oxpeckers；a big help to 對…很有幫助"
+  },
+  {
+   "en": "Is there a lion behind the tree?",
+   "hl": "[[Is there]] a lion [[behind]] the tree?",
+   "gz": "Is there…? 疑問句",
+   "o": [
+    "樹後面有一隻獅子。",
+    "樹前面有一隻獅子嗎？",
+    "樹後面有一隻獅子嗎？"
+   ],
+   "a": 2,
+   "tip": "Is there 開頭 → 問句；behind 後面"
+  },
+  {
+   "en": "Are there any birds near the zebras?",
+   "hl": "[[Are there any]] birds [[near]] the zebras?",
+   "gz": "Are there any…? ＋ near",
+   "o": [
+    "斑馬附近有任何鳥嗎？",
+    "斑馬上面有任何鳥嗎？",
+    "斑馬附近沒有任何鳥。"
+   ],
+   "a": 0,
+   "tip": "near 在…附近"
+  },
+  {
+   "en": "There is a ball on the bed. There isn't a ball on the chair.",
+   "hl": "[[There is]] a ball on the bed. [[There isn't]] a ball on the chair.",
+   "gz": "There is 肯定 vs 否定",
+   "o": [
+    "床上沒有球。椅子上有一顆球。",
+    "床上有一顆球。椅子上沒有球。",
+    "床上有一顆球。椅子上也有一顆球。"
+   ],
+   "a": 1,
+   "tip": "There isn't → 沒有"
+  },
+  {
+   "en": "There are many bugs in the zebras' coat, and these bugs are bad for them.",
+   "hl": "[[There are many]] bugs in the zebras' coat, and [[these bugs]] are bad for them.",
+   "gz": "There are＋複數；these",
+   "o": [
+    "斑馬的毛皮裡有很多蟲，而這些蟲對牠們有害。",
+    "斑馬的毛皮裡有一隻蟲，而這隻蟲對牠有害。",
+    "斑馬的毛皮裡沒有很多蟲，而這些蟲對牠們有害。"
+   ],
+   "a": 0,
+   "tip": "There are many 有很多；these 這些"
+  },
+  {
+   "en": "Luckily, these bugs are the oxpeckers' food.",
+   "hl": "Luckily, [[these bugs]] are [[the oxpeckers']] food.",
+   "gz": "複數所有格 s'",
+   "o": [
+    "幸運地，這些蟲是那隻牛椋鳥的食物。",
+    "幸運地，這些蟲是牛椋鳥們的食物。",
+    "幸運地，那隻蟲是牛椋鳥們的食物。"
+   ],
+   "a": 1,
+   "tip": "oxpeckers' 複數所有格；these bugs 複數"
+  },
+  {
+   "en": "The oxpeckers can clean up the bugs for the zebras, and the zebras can provide food for the oxpeckers.",
+   "hl": "The oxpeckers [[can clean up]] the bugs for the zebras, and the zebras [[can provide]] food for the oxpeckers.",
+   "gz": "can＋原形動詞",
+   "o": [
+    "牛椋鳥正在幫斑馬清除蟲子，而斑馬正在提供食物給牛椋鳥。",
+    "牛椋鳥能幫斑馬清除蟲子，而斑馬能提供食物給牛椋鳥。",
+    "牛椋鳥不能幫斑馬清除蟲子，而斑馬也不能提供食物給牛椋鳥。"
+   ],
+   "a": 1,
+   "tip": "can → 能夠；不是正在進行"
+  },
+  {
+   "en": "In the animal world, some animals can help each other.",
+   "hl": "In the animal world, [[some]] animals [[can help]] each other.",
+   "gz": "some＋複數；can＋原形",
+   "o": [
+    "在動物世界裡，所有動物都能互相幫助。",
+    "在動物世界裡，有些動物不能互相幫助。",
+    "在動物世界裡，有些動物能互相幫助。"
+   ],
+   "a": 2,
+   "tip": "some 一些；can help 能幫助"
+  },
+  {
+   "en": "Thanks to each other's help, the oxpeckers are full and happy, and the zebras are clean and healthy.",
+   "hl": "[[Thanks to]] each other's help, the oxpeckers are full and happy, and the zebras are clean and healthy.",
+   "gz": "thanks to＋名詞",
+   "o": [
+    "幸好有彼此的幫助，牛椋鳥吃飽又快樂，斑馬乾淨又健康。",
+    "幸好有彼此的幫助，牛椋鳥乾淨又健康，斑馬吃飽又快樂。",
+    "幸好有彼此的幫助，牛椋鳥吃飽又快樂，斑馬卻不乾淨也不健康。"
+   ],
+   "a": 0,
+   "tip": "thanks to 幸虧；full 飽的、clean 乾淨的"
+  },
+  {
+   "en": "There's an elephant in front of the bus.",
+   "hl": "[[There's an]] elephant [[in front of]] the bus.",
+   "gz": "位置介系詞 in front of",
+   "o": [
+    "公車後面有一隻大象。",
+    "公車前面有一隻大象。",
+    "公車裡面有一隻大象。"
+   ],
+   "a": 1,
+   "tip": "in front of 在…前面"
+  },
+  {
+   "en": "There aren't any chairs in the classroom.",
+   "hl": "[[There aren't any]] chairs in the classroom.",
+   "gz": "There are 否定句＋any",
+   "o": [
+    "教室裡有一些椅子。",
+    "教室裡有任何椅子嗎？",
+    "教室裡沒有任何椅子。"
+   ],
+   "a": 2,
+   "tip": "aren't any → 沒有任何"
+  },
+  {
+   "en": "There are no zebras near here.",
+   "hl": "[[There are no]] zebras [[near]] here.",
+   "gz": "There are no＋複數＝沒有",
+   "o": [
+    "這附近有一些斑馬。",
+    "這附近沒有斑馬。",
+    "這附近有斑馬嗎？"
+   ],
+   "a": 1,
+   "tip": "no zebras = not any zebras 沒有"
+  },
+  {
+   "en": "Are there two foxes over there?",
+   "hl": "[[Are there]] two foxes [[over there]]?",
+   "gz": "Are there…? 疑問句",
+   "o": [
+    "那裡有兩隻狐狸嗎？",
+    "那裡有一隻狐狸嗎？",
+    "那兩隻是狐狸嗎？"
+   ],
+   "a": 0,
+   "tip": "Are there 問「有…嗎」，不是 Are they"
+  },
+  {
+   "en": "There are three monkeys in the tree.",
+   "hl": "[[There are]] three monkeys [[in]] the tree.",
+   "gz": "There are＋數字＋複數",
+   "o": [
+    "樹下有三隻猴子。",
+    "樹上有三隻猴子。",
+    "樹上有一隻猴子。"
+   ],
+   "a": 1,
+   "tip": "in the tree 在樹上；three 三隻"
+  },
+  {
+   "en": "Is that a bird on the dog's back?",
+   "hl": "Is [[that]] a bird [[on the dog's back]]?",
+   "gz": "this/that 問句＋所有格",
+   "o": [
+    "那是狗背上的一隻鳥嗎？",
+    "那些是狗背上的鳥嗎？",
+    "狗背上有一隻鳥。"
+   ],
+   "a": 0,
+   "tip": "Is that…? 那是…嗎；that 單數"
+  },
+  {
+   "en": "Is there a lion under the tree?",
+   "hl": "[[Is there]] a lion [[under]] the tree?",
+   "gz": "Is there…? ＋ under",
+   "o": [
+    "樹上有一隻獅子嗎？",
+    "樹下有一隻獅子。",
+    "樹下有一隻獅子嗎？"
+   ],
+   "a": 2,
+   "tip": "under 在…下面；Is there 問句"
+  }
+ ]
+}

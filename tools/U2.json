@@ -1,0 +1,1155 @@
+{
+ "grammar": [
+  {
+   "q": "Dad: This is a new pencil case ____ you.\nLeo: Thank you, Dad.",
+   "o": [
+    "for",
+    "to",
+    "at",
+    "with"
+   ],
+   "a": 0,
+   "tip": "「給某人的」東西 → for + 人"
+  },
+  {
+   "q": "Liz: Where are Eddie and Denny?\nKen: They are ____ the bedroom.",
+   "o": [
+    "of",
+    "in",
+    "between",
+    "next"
+   ],
+   "a": 1,
+   "tip": "在房間裡 → in；next 要接 to"
+  },
+  {
+   "q": "Kent: Is the cat ____ the sofa?\nLisa: No, it's under the sofa.",
+   "o": [
+    "next",
+    "between",
+    "on",
+    "for"
+   ],
+   "a": 2,
+   "tip": "on 在…上面；next 須加 to；between 須兩者"
+  },
+  {
+   "q": "Jay: What is this?\nSam: ____",
+   "o": [
+    "Pencils.",
+    "They're comic books.",
+    "These are rulers.",
+    "It's a notebook."
+   ],
+   "a": 3,
+   "tip": "What is this? → It is＋a/an＋單數"
+  },
+  {
+   "q": "Those notebooks in the box ____ brown.",
+   "o": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ],
+   "a": 0,
+   "tip": "主詞 notebooks 複數 → are"
+  },
+  {
+   "q": "These are the three ____ pencils.",
+   "o": [
+    "student's",
+    "students'",
+    "student",
+    "students"
+   ],
+   "a": 1,
+   "tip": "三個學生的 → 複數所有格 students'"
+  },
+  {
+   "q": "Jay: Are these small balls?\nTim: Yes, ____.",
+   "o": [
+    "they're",
+    "these are",
+    "they're small balls",
+    "those are"
+   ],
+   "a": 2,
+   "tip": "肯定簡答不可縮寫；they're＋名詞可以"
+  },
+  {
+   "q": "Ben: What is that?\nLiz: ____ old desk.",
+   "o": [
+    "That's a",
+    "It's",
+    "This isn't",
+    "An"
+   ],
+   "a": 3,
+   "tip": "old 母音開頭 → an；可省略 It's 直接答"
+  },
+  {
+   "q": "Max: ____ our dog, Lucky, at the door?\nLiz: That's right.",
+   "o": [
+    "Is",
+    "Where's",
+    "Where are",
+    "Are"
+   ],
+   "a": 0,
+   "tip": "Yes/No 問句；Lucky 單數 → Is"
+  },
+  {
+   "q": "Ann: Where is Dad?\nLeo: ____ he is in his bedroom.",
+   "o": [
+    "Really",
+    "Maybe",
+    "Right",
+    "But"
+   ],
+   "a": 1,
+   "tip": "maybe 可能，常放句首"
+  },
+  {
+   "q": "Look! The dog is ____ the two trees.",
+   "o": [
+    "front",
+    "next",
+    "between",
+    "at"
+   ],
+   "a": 2,
+   "tip": "在兩者之間 → between"
+  },
+  {
+   "q": "Jim: Mom, where is our cat, Mimi?\nMom: She's ____ the sofa.",
+   "o": [
+    "next",
+    "front",
+    "between",
+    "behind"
+   ],
+   "a": 3,
+   "tip": "behind 在後面；next 缺 to"
+  },
+  {
+   "q": "The park is in ____ of our school.",
+   "o": [
+    "front",
+    "near",
+    "behind",
+    "between"
+   ],
+   "a": 0,
+   "tip": "in front of 在…前面"
+  },
+  {
+   "q": "Our ____ is too small. We eat in the living room.",
+   "o": [
+    "bedroom",
+    "dining room",
+    "kitchen",
+    "bathroom"
+   ],
+   "a": 1,
+   "tip": "飯廳太小，所以在客廳吃飯"
+  },
+  {
+   "q": "Ben: My notebook is not in my bag. ____ is it?\nLily: It's on your bed.",
+   "o": [
+    "What",
+    "How",
+    "Where",
+    "Who"
+   ],
+   "a": 2,
+   "tip": "回答地點 on your bed → Where"
+  },
+  {
+   "q": "Ben: Where ____ my markers?\nLily: They're under the chair.",
+   "o": [
+    "is",
+    "am",
+    "be",
+    "are"
+   ],
+   "a": 3,
+   "tip": "markers 複數 → Where are"
+  },
+  {
+   "q": "Ben: Where's my pencil case?\nLily: Isn't it ____ your book bag?\nBen: Yes, it is. Thank you.",
+   "o": [
+    "in",
+    "front of",
+    "next",
+    "about"
+   ],
+   "a": 0,
+   "tip": "在書包裡 → in"
+  },
+  {
+   "q": "Ben: Thank you very much.\nLily: ____",
+   "o": [
+    "Not really.",
+    "You're welcome.",
+    "Really?",
+    "I see."
+   ],
+   "a": 1,
+   "tip": "回應道謝 → You're welcome."
+  },
+  {
+   "q": "David: ____ your parents? Are they in the bedroom?\nBen: No. They're in the kitchen.",
+   "o": [
+    "What's",
+    "Where's",
+    "Where are",
+    "How are"
+   ],
+   "a": 2,
+   "tip": "parents 複數＋問地點 → Where are"
+  },
+  {
+   "q": "David: Are your parents in their bedroom?\nBen: No, ____. They're in the kitchen.",
+   "o": [
+    "they are",
+    "there are",
+    "there aren't",
+    "they aren't"
+   ],
+   "a": 3,
+   "tip": "否定簡答：No, they aren't."
+  },
+  {
+   "q": "David: ____ that under your chair? Is that your dog?\nBen: Yes, it's my dog, Rocky.",
+   "o": [
+    "What's",
+    "Who's",
+    "How's",
+    "Where's"
+   ],
+   "a": 0,
+   "tip": "問「那是什麼」→ What's that?"
+  },
+  {
+   "q": "Ben: Rocky is a birthday gift ____ me from my uncle, Sam.",
+   "o": [
+    "to",
+    "for",
+    "from",
+    "behind"
+   ],
+   "a": 1,
+   "tip": "給某人的禮物 → a gift for me"
+  },
+  {
+   "q": "A: Is this your watch?\nB: Yes, ____.",
+   "o": [
+    "I am",
+    "we are",
+    "it is",
+    "they are"
+   ],
+   "a": 2,
+   "tip": "this 簡答用 it；肯定不可縮寫"
+  },
+  {
+   "q": "That ____ picture is beautiful.",
+   "o": [
+    "a",
+    "an",
+    "your",
+    "(不填)"
+   ],
+   "a": 3,
+   "tip": "that 已限定名詞，不可再加 a/an/your"
+  },
+  {
+   "q": "A: What ____?\nB: Comic books.",
+   "o": [
+    "are they",
+    "is it",
+    "are you",
+    "is this"
+   ],
+   "a": 0,
+   "tip": "答句為複數名詞 → What are they?"
+  },
+  {
+   "q": "A: What's this?\nB: ____",
+   "o": [
+    "It's orange.",
+    "An orange.",
+    "Its orange.",
+    "This orange."
+   ],
+   "a": 1,
+   "tip": "柳橙是可數名詞需冠詞 → An orange."
+  },
+  {
+   "q": "Is it ____ orange pen?",
+   "o": [
+    "(不填)",
+    "a",
+    "an",
+    "two"
+   ],
+   "a": 2,
+   "tip": "orange 母音開頭 → an"
+  },
+  {
+   "q": "These ____ are cute.",
+   "o": [
+    "dog",
+    "cat",
+    "baby",
+    "fish"
+   ],
+   "a": 3,
+   "tip": "these 接複數；fish 單複數同形"
+  },
+  {
+   "q": "Echo: Are those your markers?\nLucas: Yes, ____.",
+   "o": [
+    "they are",
+    "they're",
+    "those are",
+    "these are"
+   ],
+   "a": 0,
+   "tip": "those 簡答用 they；肯定不可縮寫"
+  },
+  {
+   "q": "Where are ____?",
+   "o": [
+    "a pen and an eraser",
+    "the brushes",
+    "markers",
+    "his bag"
+   ],
+   "a": 1,
+   "tip": "Where 問特定的人事物 → the＋複數"
+  },
+  {
+   "q": "Jeff isn't ____ home now. He's at school.",
+   "o": [
+    "in",
+    "at the",
+    "at",
+    "in the"
+   ],
+   "a": 2,
+   "tip": "在家 → at home，不加 the"
+  },
+  {
+   "q": "Susan: Ivy, are these your pictures?\nIvy: No, ____ John's pictures.",
+   "o": [
+    "those",
+    "these",
+    "it's",
+    "they are"
+   ],
+   "a": 3,
+   "tip": "these 回答時用 they；複數 are"
+  },
+  {
+   "q": "Are those ____?",
+   "o": [
+    "Alan's sheep",
+    "Bill's toy",
+    "Joan's ball",
+    "David's car"
+   ],
+   "a": 0,
+   "tip": "those 接複數；sheep 單複數同形"
+  },
+  {
+   "q": "A: Are these her bags?\nB: No, ____. This is my bag, and that is Ken's bag.",
+   "o": [
+    "these aren't",
+    "they aren't",
+    "those aren't",
+    "that isn't"
+   ],
+   "a": 1,
+   "tip": "these 簡答用 they → they aren't"
+  },
+  {
+   "q": "A: Are those pencil boxes?\nB: No, they aren't. They are ____.",
+   "o": [
+    "a gift box",
+    "a pencil box",
+    "gift boxes",
+    "pencil boxes"
+   ],
+   "a": 2,
+   "tip": "They are＋複數；且不是鉛筆盒"
+  },
+  {
+   "q": "A: Who are ____ ____?\nB: They're the students' mothers.",
+   "o": [
+    "this; women",
+    "this; woman",
+    "these; woman",
+    "these; women"
+   ],
+   "a": 3,
+   "tip": "複數：these＋women"
+  },
+  {
+   "q": "Lei: ____ this my bag?\nJay: Yes, it is.",
+   "o": [
+    "Is",
+    "Are",
+    "Am",
+    "Be"
+   ],
+   "a": 0,
+   "tip": "this 單數 → Is this…?"
+  },
+  {
+   "q": "Amy: Isn't the living room next to the kitchen?\nBen: No, it's ____ the bedroom and the bathroom.",
+   "o": [
+    "on",
+    "between",
+    "above",
+    "next"
+   ],
+   "a": 1,
+   "tip": "between A and B 在兩者之間"
+  },
+  {
+   "q": "Two ____ are in the brown box.",
+   "o": [
+    "mouses",
+    "mices",
+    "mice",
+    "mouse"
+   ],
+   "a": 2,
+   "tip": "mouse 不規則複數 → mice"
+  },
+  {
+   "q": "My aunts are ____.",
+   "o": [
+    "housewifes",
+    "housewife",
+    "a housewife",
+    "housewives"
+   ],
+   "a": 3,
+   "tip": "字尾 -fe → 去 fe 加 ves"
+  },
+  {
+   "q": "The ____ are in the living room.",
+   "o": [
+    "babies",
+    "babys",
+    "baby",
+    "babyes"
+   ],
+   "a": 0,
+   "tip": "子音＋y → 去 y 加 ies"
+  },
+  {
+   "q": "These are two ____.",
+   "o": [
+    "watchs",
+    "watches",
+    "watch",
+    "a watch"
+   ],
+   "a": 1,
+   "tip": "字尾 ch → 加 es"
+  },
+  {
+   "q": "____ is an umbrella.",
+   "o": [
+    "These",
+    "Those",
+    "That",
+    "They"
+   ],
+   "a": 2,
+   "tip": "is＋單數 → That；these/those 用 are"
+  },
+  {
+   "q": "My room is big, ____ my bed is not.",
+   "o": [
+    "and",
+    "or",
+    "too",
+    "but"
+   ],
+   "a": 3,
+   "tip": "前後語意相反 → but"
+  },
+  {
+   "q": "The TV is under the clock. The clock is ____ the TV.",
+   "o": [
+    "above",
+    "under",
+    "inside",
+    "between"
+   ],
+   "a": 0,
+   "tip": "在…上方（不接觸）→ above"
+  },
+  {
+   "q": "The cats are behind the dogs. The dogs are ____ the cats.",
+   "o": [
+    "under",
+    "in front of",
+    "between",
+    "inside"
+   ],
+   "a": 1,
+   "tip": "貓在狗後面 → 狗在貓前面"
+  },
+  {
+   "q": "These are ____.",
+   "o": [
+    "an English book",
+    "English book",
+    "English books",
+    "two English book"
+   ],
+   "a": 2,
+   "tip": "These are＋複數名詞"
+  },
+  {
+   "q": "A: ____ are these?\nB: They're ____.",
+   "o": [
+    "What; the notebook",
+    "What; notebook",
+    "What; a notebook",
+    "What; notebooks"
+   ],
+   "a": 3,
+   "tip": "They're＋複數名詞，不加 a"
+  },
+  {
+   "q": "Matt: Is ____ your cat?\nJay: Yes, it is.",
+   "o": [
+    "that",
+    "these",
+    "those",
+    "they"
+   ],
+   "a": 0,
+   "tip": "Is＋單數 → that"
+  },
+  {
+   "q": "This is ____ egg, and those are ____ apples.",
+   "o": [
+    "a; (不填)",
+    "an; (不填)",
+    "an; an",
+    "a; an"
+   ],
+   "a": 1,
+   "tip": "egg 用 an；複數 apples 不加 a/an"
+  },
+  {
+   "q": "Are these ____ cookies?",
+   "o": [
+    "you",
+    "you're",
+    "your",
+    "you are"
+   ],
+   "a": 2,
+   "tip": "名詞前用所有格 your"
+  },
+  {
+   "q": "Where's ____?",
+   "o": [
+    "your brothers",
+    "the pencils",
+    "my markers",
+    "your mom"
+   ],
+   "a": 3,
+   "tip": "Where's = Where is → 接單數"
+  }
+ ],
+ "fix": [
+  {
+   "t": "[[These]] [[is]] my [[new]] [[markers]].",
+   "e": 1,
+   "o": [
+    "are",
+    "am",
+    "be"
+   ],
+   "a": 0,
+   "tip": "these 複數 → are"
+  },
+  {
+   "t": "[[What's]] [[this]]? [[It's]] [[a]] eraser.",
+   "e": 3,
+   "o": [
+    "two",
+    "those",
+    "an"
+   ],
+   "a": 2,
+   "tip": "eraser 母音開頭 → an"
+  },
+  {
+   "t": "[[Those]] [[boxs]] are [[on]] the [[table]].",
+   "e": 1,
+   "o": [
+    "box",
+    "boxes",
+    "boxies"
+   ],
+   "a": 1,
+   "tip": "字尾 x → 加 es：boxes"
+  },
+  {
+   "t": "Two [[mouses]] are [[in]] [[the]] [[brown]] box.",
+   "e": 0,
+   "o": [
+    "mice",
+    "mouse",
+    "mices"
+   ],
+   "a": 0,
+   "tip": "mouse 的複數是 mice"
+  },
+  {
+   "t": "Where [[is]] the [[cookies]]? [[They're]] [[in]] the kitchen.",
+   "e": 0,
+   "o": [
+    "am",
+    "be",
+    "are"
+   ],
+   "a": 2,
+   "tip": "cookies 複數 → Where are"
+  },
+  {
+   "t": "A: [[Are]] [[these]] your [[books]]?\nB: Yes, [[they're]].",
+   "e": 3,
+   "o": [
+    "these are",
+    "they are",
+    "it is"
+   ],
+   "a": 1,
+   "tip": "肯定簡答不可縮寫 → they are"
+  },
+  {
+   "t": "A: [[Is]] [[that]] your [[dog]]?\nB: No, [[that]] isn't.",
+   "e": 3,
+   "o": [
+    "it",
+    "this",
+    "he"
+   ],
+   "a": 0,
+   "tip": "this/that 簡答用 it"
+  },
+  {
+   "t": "The [[womans]] [[in front of]] the house [[are]] my [[aunts]].",
+   "e": 0,
+   "o": [
+    "woman",
+    "womens",
+    "women"
+   ],
+   "a": 2,
+   "tip": "woman 的複數是 women"
+  },
+  {
+   "t": "My [[room]] is big, [[and]] my [[bed]] [[is]] not.",
+   "e": 1,
+   "o": [
+    "or",
+    "but",
+    "too"
+   ],
+   "a": 1,
+   "tip": "語意相反用 but"
+  },
+  {
+   "t": "The cat is [[between]] the [[sofa]] [[or]] the [[desk]].",
+   "e": 2,
+   "o": [
+    "and",
+    "but",
+    "to"
+   ],
+   "a": 0,
+   "tip": "between A and B"
+  },
+  {
+   "t": "Mickey [[is]] [[next]] the [[box]]. He's [[hungry]].",
+   "e": 1,
+   "o": [
+    "next of",
+    "near to",
+    "next to"
+   ],
+   "a": 2,
+   "tip": "在…旁邊 → next to"
+  },
+  {
+   "t": "The [[bedroom]] is [[above]] [[that]] three [[rooms]].",
+   "e": 2,
+   "o": [
+    "this",
+    "those",
+    "it"
+   ],
+   "a": 1,
+   "tip": "three rooms 複數 → those"
+  },
+  {
+   "t": "[[This]] [[is]] [[a]] [[umbrella]].",
+   "e": 2,
+   "o": [
+    "an",
+    "two",
+    "these"
+   ],
+   "a": 0,
+   "tip": "umbrella 母音開頭 → an"
+  },
+  {
+   "t": "[[These]] [[are]] the [[three]] [[student's]] pencils.",
+   "e": 3,
+   "o": [
+    "student",
+    "students's",
+    "students'"
+   ],
+   "a": 2,
+   "tip": "三個學生的 → students'"
+  },
+  {
+   "t": "The [[babys]] [[are]] [[in]] the [[living room]].",
+   "e": 0,
+   "o": [
+    "babyes",
+    "babies",
+    "baby"
+   ],
+   "a": 1,
+   "tip": "子音＋y → ies"
+  },
+  {
+   "t": "[[The]] [[housewifes]] [[are]] [[near]] the park.",
+   "e": 1,
+   "o": [
+    "housewives",
+    "housewife",
+    "housewive"
+   ],
+   "a": 0,
+   "tip": "-fe → ves：housewives"
+  },
+  {
+   "t": "A: [[What]] [[are]] [[these]]?\nB: [[It's]] comic books.",
+   "e": 3,
+   "o": [
+    "These're",
+    "It",
+    "They're"
+   ],
+   "a": 2,
+   "tip": "複數名詞 → They're"
+  },
+  {
+   "t": "Where [[are]] [[your]] parents? [[They]] are [[on]] the kitchen.",
+   "e": 3,
+   "o": [
+    "under",
+    "in",
+    "between"
+   ],
+   "a": 1,
+   "tip": "在房間裡 → in"
+  },
+  {
+   "t": "[[Thats]] [[a]] [[gift]] [[for]] you.",
+   "e": 0,
+   "o": [
+    "That's",
+    "This's",
+    "Those"
+   ],
+   "a": 0,
+   "tip": "That is 縮寫 → That's"
+  },
+  {
+   "t": "[[Where's]] [[Jamie]] and [[Zac]]? [[They're]] in the living room.",
+   "e": 0,
+   "o": [
+    "Where",
+    "Where am",
+    "Where are"
+   ],
+   "a": 2,
+   "tip": "兩個人 → Where are"
+  },
+  {
+   "t": "[[Are]] [[those]] [[watchs]] [[for]] me?",
+   "e": 2,
+   "o": [
+    "watch",
+    "watches",
+    "watchies"
+   ],
+   "a": 1,
+   "tip": "字尾 ch → 加 es"
+  },
+  {
+   "t": "Purple [[is]] [[my]] [[favorite]] [[colors]].",
+   "e": 3,
+   "o": [
+    "color",
+    "a color",
+    "the colors"
+   ],
+   "a": 0,
+   "tip": "is＋單數 → my favorite color"
+  },
+  {
+   "t": "The [[children]] [[is]] [[in front of]] the [[school]].",
+   "e": 1,
+   "o": [
+    "am",
+    "be",
+    "are"
+   ],
+   "a": 2,
+   "tip": "children 複數 → are"
+  },
+  {
+   "t": "[[Is]] [[this]] [[Amy]] [[pencil case]]?",
+   "e": 2,
+   "o": [
+    "Amys'",
+    "Amy's",
+    "Amys"
+   ],
+   "a": 1,
+   "tip": "所有格 → Amy's"
+  },
+  {
+   "t": "[[Is]] [[these]] your [[mice]]? Yes, [[they]] are.",
+   "e": 0,
+   "o": [
+    "Are",
+    "Am",
+    "Be"
+   ],
+   "a": 0,
+   "tip": "these 複數 → Are these…?"
+  }
+ ],
+ "sent": [
+  {
+   "en": "Mom and Dad, this is Jamie.",
+   "hl": "Mom and Dad, [[this is]] Jamie.",
+   "gz": "指示代名詞 this 介紹人",
+   "o": [
+    "爸媽，那位是Jamie。",
+    "爸媽，這位是Jamie。",
+    "爸媽，這些是Jamie的家人。"
+   ],
+   "a": 1,
+   "tip": "this 這個（近），介紹人用 This is…"
+  },
+  {
+   "en": "Wow, the living room walls are purple.",
+   "hl": "Wow, the living room [[walls are]] purple.",
+   "gz": "複數名詞＋are",
+   "o": [
+    "哇，客廳的牆壁是紫色的。",
+    "哇，客廳的牆壁不是紫色的。",
+    "哇，客廳裡的那面牆是紫色的。"
+   ],
+   "a": 0,
+   "tip": "walls 複數 → are"
+  },
+  {
+   "en": "Well, purple is my favorite color.",
+   "hl": "Well, purple is [[my]] favorite color.",
+   "gz": "所有格 my",
+   "o": [
+    "嗯，紫色是你最喜愛的顏色。",
+    "嗯，紫色不是我最喜愛的顏色。",
+    "嗯，紫色是我最喜愛的顏色。"
+   ],
+   "a": 2,
+   "tip": "my 我的"
+  },
+  {
+   "en": "Are the kitchen and the dining room purple, too?",
+   "hl": "[[Are]] the kitchen [[and]] the dining room purple, too?",
+   "gz": "be動詞複數問句",
+   "o": [
+    "廚房和飯廳不是紫色的嗎？",
+    "廚房和飯廳也是紫色的嗎？",
+    "廚房或飯廳是紫色的嗎？"
+   ],
+   "a": 1,
+   "tip": "A and B 複數 → Are…?"
+  },
+  {
+   "en": "The dining room is, but the kitchen isn't. It's gray.",
+   "hl": "The dining room is, [[but]] the kitchen [[isn't]]. It's gray.",
+   "gz": "連接詞 but",
+   "o": [
+    "飯廳是，但廚房不是。它是灰色的。",
+    "飯廳不是，但廚房是。它是灰色的。",
+    "飯廳和廚房都是。它們是灰色的。"
+   ],
+   "a": 0,
+   "tip": "but 連接相反語意"
+  },
+  {
+   "en": "What are those in the brown box?",
+   "hl": "[[What are those]] in the brown box?",
+   "gz": "What are those?",
+   "o": [
+    "這個在棕色盒子裡的是什麼？",
+    "那些在棕色盒子旁邊的是什麼？",
+    "那些在棕色盒子裡的是什麼？"
+   ],
+   "a": 2,
+   "tip": "those 那些；in 在…裡面"
+  },
+  {
+   "en": "They're cookies for my mice, Mickey, Minnie, and Molly.",
+   "hl": "They're cookies [[for]] my [[mice]], Mickey, Minnie, and Molly.",
+   "gz": "不規則複數 mice",
+   "o": [
+    "它們是來自我的老鼠Mickey、Minnie和Molly的餅乾。",
+    "它們是給我的老鼠Mickey、Minnie和Molly的餅乾。",
+    "它是給我的老鼠Mickey的一塊餅乾。"
+   ],
+   "a": 1,
+   "tip": "for 給…；mice 是 mouse 的複數"
+  },
+  {
+   "en": "They're in their house.",
+   "hl": "They're [[in]] [[their]] house.",
+   "gz": "介系詞 in＋所有格 their",
+   "o": [
+    "牠們在牠們的房子裡。",
+    "牠們在我們的房子裡。",
+    "牠們在牠們的房子後面。"
+   ],
+   "a": 0,
+   "tip": "their 他們的；in 在…裡"
+  },
+  {
+   "en": "Oh, no. Where's Mickey?",
+   "hl": "Oh, no. [[Where's]] Mickey?",
+   "gz": "Where 問句",
+   "o": [
+    "喔，不。Mickey是誰？",
+    "喔，不。Mickey在這裡。",
+    "喔，不。Mickey在哪裡？"
+   ],
+   "a": 2,
+   "tip": "Where's = Where is 在哪裡"
+  },
+  {
+   "en": "Maybe he's under the sofa.",
+   "hl": "Maybe he's [[under]] the sofa.",
+   "gz": "位置介系詞 under",
+   "o": [
+    "牠可能在沙發上面。",
+    "牠可能在沙發底下。",
+    "牠可能在沙發後面。"
+   ],
+   "a": 1,
+   "tip": "under 在…下面"
+  },
+  {
+   "en": "Look. He's next to the box.",
+   "hl": "Look. He's [[next to]] the box.",
+   "gz": "位置介系詞 next to",
+   "o": [
+    "你看。牠在盒子旁邊。",
+    "你看。牠在盒子裡面。",
+    "你看。牠在盒子前面。"
+   ],
+   "a": 0,
+   "tip": "next to 在…旁邊"
+  },
+  {
+   "en": "Those are comic books.",
+   "hl": "[[Those are]] comic [[books]].",
+   "gz": "指示代名詞 those",
+   "o": [
+    "這些是漫畫書。",
+    "那是一本漫畫書。",
+    "那些是漫畫書。"
+   ],
+   "a": 2,
+   "tip": "those 那些（遠、複數）"
+  },
+  {
+   "en": "That is a pencil box.",
+   "hl": "[[That is]] [[a]] pencil box.",
+   "gz": "指示代名詞 that",
+   "o": [
+    "這是一個鉛筆盒。",
+    "那是一個鉛筆盒。",
+    "那些是鉛筆盒。"
+   ],
+   "a": 1,
+   "tip": "that 那個（遠、單數）"
+  },
+  {
+   "en": "Where are your brothers? They're at the park.",
+   "hl": "[[Where are]] your [[brothers]]? They're at the park.",
+   "gz": "Where are 問句",
+   "o": [
+    "你的哥哥們在哪裡？他們在公園。",
+    "你的哥哥在哪裡？他在公園。",
+    "你的哥哥們是誰？他們在公園。"
+   ],
+   "a": 0,
+   "tip": "brothers 複數；Where 問地點"
+  },
+  {
+   "en": "Where is the book bag? It's on the bed.",
+   "hl": "Where is the book bag? It's [[on]] the bed.",
+   "gz": "位置介系詞 on",
+   "o": [
+    "書包在哪裡？它在床底下。",
+    "那些書包在哪裡？它們在床上。",
+    "書包在哪裡？它在床上。"
+   ],
+   "a": 2,
+   "tip": "on 在…上面"
+  },
+  {
+   "en": "Where are the basketballs? They're behind the door.",
+   "hl": "Where are the basketballs? They're [[behind]] the door.",
+   "gz": "位置介系詞 behind",
+   "o": [
+    "籃球在哪裡？它們在門前面。",
+    "籃球在哪裡？它們在門後面。",
+    "籃球是什麼？它們在門後面。"
+   ],
+   "a": 1,
+   "tip": "behind 在…後面"
+  },
+  {
+   "en": "The Keret House is a small house in Poland.",
+   "hl": "The Keret House is a [[small]] house [[in]] Poland.",
+   "gz": "形容詞＋介系詞 in",
+   "o": [
+    "Keret House是一間在波蘭的小房子。",
+    "Keret House是一間在波蘭附近的小房子。",
+    "Keret House是一間在波蘭的大房子。"
+   ],
+   "a": 0,
+   "tip": "small 小的；in Poland 在波蘭"
+  },
+  {
+   "en": "It is long, thin, and very special.",
+   "hl": "It is [[long, thin, and very special]].",
+   "gz": "形容詞",
+   "o": [
+    "它又短又窄，而且非常特別。",
+    "它又長又窄，但不是很特別。",
+    "它又長又窄，而且非常特別。"
+   ],
+   "a": 2,
+   "tip": "long 長的；thin 窄的；special 特別的"
+  },
+  {
+   "en": "Inside the house, the bathroom, the kitchen, and the dining room are right next to each other.",
+   "hl": "[[Inside]] the house, the bathroom, the kitchen, and the dining room are right [[next to]] each other.",
+   "gz": "位置介系詞 inside / next to",
+   "o": [
+    "房子外面，浴室、廚房和飯廳就緊鄰著彼此。",
+    "房子裡面，浴室、廚房和飯廳就緊鄰著彼此。",
+    "房子裡面，浴室、廚房和飯廳在彼此的上方。"
+   ],
+   "a": 1,
+   "tip": "inside 在裡面；next to 緊鄰"
+  },
+  {
+   "en": "The bedroom is above those three rooms.",
+   "hl": "The bedroom is [[above]] [[those]] three rooms.",
+   "gz": "位置介系詞 above",
+   "o": [
+    "臥室在那三個房間的上方。",
+    "臥室在那三個房間的下方。",
+    "臥室在這個房間的上方。"
+   ],
+   "a": 0,
+   "tip": "above 在…上方；those 那些"
+  },
+  {
+   "en": "The Keret House is not big, but it is enough for one person.",
+   "hl": "The Keret House [[is not]] big, [[but]] it is enough for one person.",
+   "gz": "連接詞 but",
+   "o": [
+    "Keret House很大，而且足夠一個人住。",
+    "Keret House不大，而且不夠一個人住。",
+    "Keret House不大，但足夠一個人住。"
+   ],
+   "a": 2,
+   "tip": "not big 不大；but 但是"
+  },
+  {
+   "en": "Two white mice are in the box.",
+   "hl": "Two white [[mice are]] in the box.",
+   "gz": "不規則複數 mice",
+   "o": [
+    "一隻白老鼠在盒子裡。",
+    "兩隻白老鼠在盒子裡。",
+    "兩隻白老鼠在盒子上。"
+   ],
+   "a": 1,
+   "tip": "mice 複數 → are"
+  },
+  {
+   "en": "My room is big, but my bed is not.",
+   "hl": "My room is big, [[but]] my bed [[is not]].",
+   "gz": "連接詞 but",
+   "o": [
+    "我的房間很大，但我的床不大。",
+    "我的房間不大，但我的床很大。",
+    "我的房間很大，我的床也很大。"
+   ],
+   "a": 0,
+   "tip": "but 連接相反語意"
+  },
+  {
+   "en": "The clock is above the TV.",
+   "hl": "The clock is [[above]] the TV.",
+   "gz": "位置介系詞 above",
+   "o": [
+    "時鐘在電視下方。",
+    "時鐘在電視旁邊。",
+    "時鐘在電視上方。"
+   ],
+   "a": 2,
+   "tip": "above 在…上方"
+  },
+  {
+   "en": "What are those? They are cookies for my mom.",
+   "hl": "[[What are those]]? [[They are]] cookies for my mom.",
+   "gz": "What are those? / They are",
+   "o": [
+    "這是什麼？它是給我媽媽的餅乾。",
+    "那些是什麼？它們是給我媽媽的餅乾。",
+    "那些是什麼？它們是我媽媽做的餅乾。"
+   ],
+   "a": 1,
+   "tip": "those 複數，用 they 回答"
+  }
+ ]
+}

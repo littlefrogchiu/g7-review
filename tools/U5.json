@@ -1,0 +1,1133 @@
+{
+ "grammar": [
+  {
+   "q": "Tim: What's the ____ today?\nAmy: It's October thirtieth.",
+   "o": [
+    "date",
+    "day",
+    "time",
+    "month"
+   ],
+   "a": 0,
+   "tip": "問幾月幾日 → What's the date?"
+  },
+  {
+   "q": "A: What day is it today?\nB: It's ____.",
+   "o": [
+    "May first",
+    "Thursday",
+    "ten o'clock",
+    "in May"
+   ],
+   "a": 1,
+   "tip": "What day 問星期 → 答星期幾"
+  },
+  {
+   "q": "Jill: What's the date today?\nSara: It's ____ September 13.",
+   "o": [
+    "on",
+    "in",
+    "×",
+    "at"
+   ],
+   "a": 2,
+   "tip": "單純敘述日期 It's + 日期，不加介系詞"
+  },
+  {
+   "q": "Today is ____ June 6, and Dad's birthday is ____ June 15.",
+   "o": [
+    "on; on",
+    "on; ×",
+    "×; ×",
+    "×; on"
+   ],
+   "a": 3,
+   "tip": "Today is + 日期不加 on；be 在某日 → on"
+  },
+  {
+   "q": "September is ____ month of the year.",
+   "o": [
+    "the ninth",
+    "nine",
+    "the nine",
+    "ninth"
+   ],
+   "a": 0,
+   "tip": "序數當形容詞要加 the；nine → ninth"
+  },
+  {
+   "q": "This is ____ first watch, and I like ____.",
+   "o": [
+    "the; them",
+    "my; it",
+    "its; it",
+    "×; them"
+   ],
+   "a": 1,
+   "tip": "序數前加所有格；watch 單數 → 受格 it"
+  },
+  {
+   "q": "My son's birthday is on ____.",
+   "o": [
+    "March",
+    "eighth of March",
+    "March 8",
+    "this month"
+   ],
+   "a": 2,
+   "tip": "on + 某月某日；March 用 in"
+  },
+  {
+   "q": "We can't wait to welcome a new year ____ New Year's Eve.",
+   "o": [
+    "in",
+    "at",
+    "×",
+    "on"
+   ],
+   "a": 3,
+   "tip": "特定的日子（節日）前用 on"
+  },
+  {
+   "q": "The magic show is on ____.",
+   "o": [
+    "Sunday, October 3",
+    "July",
+    "April",
+    "7:00 p.m."
+   ],
+   "a": 0,
+   "tip": "on + 星期/日期；月份用 in，時刻用 at"
+  },
+  {
+   "q": "Mother's Day is ____ next week. It's ____ May 12 this year.",
+   "o": [
+    "in; on",
+    "×; on",
+    "on; ×",
+    "×; ×"
+   ],
+   "a": 1,
+   "tip": "next week 前不加介系詞；日期前用 on"
+  },
+  {
+   "q": "A: What day is the Christmas party?\nB: It's ____.",
+   "o": [
+    "at 7 p.m.",
+    "in the evening",
+    "this Friday",
+    "at night"
+   ],
+   "a": 2,
+   "tip": "What day 問星期 → this Friday"
+  },
+  {
+   "q": "Max: Mom, I'm very hungry.\nMom: Wash your hands ____, and you can eat an apple.",
+   "o": [
+    "only",
+    "also",
+    "around",
+    "first"
+   ],
+   "a": 3,
+   "tip": "first 當副詞「先」：先洗手"
+  },
+  {
+   "q": "The month after May is ____.",
+   "o": [
+    "June",
+    "April",
+    "July",
+    "March"
+   ],
+   "a": 0,
+   "tip": "五月之後是六月 June"
+  },
+  {
+   "q": "Tim: What's our ____ today, Mom?\nMom: How about McDonald's? I can't cook this evening.",
+   "o": [
+    "date",
+    "dinner",
+    "day",
+    "month"
+   ],
+   "a": 1,
+   "tip": "晚餐吃什麼 → dinner"
+  },
+  {
+   "q": "Christmas is on ____ twenty-fifth.",
+   "o": [
+    "November",
+    "October",
+    "December",
+    "January"
+   ],
+   "a": 2,
+   "tip": "聖誕節在十二月二十五日"
+  },
+  {
+   "q": "Ben: ____ is the English test?\nOlga: It's next Monday.",
+   "o": [
+    "How",
+    "Who",
+    "Where",
+    "When"
+   ],
+   "a": 3,
+   "tip": "答時間 next Monday → 問何時 When"
+  },
+  {
+   "q": "The kids are running ____ in the park.",
+   "o": [
+    "around",
+    "before",
+    "also",
+    "only"
+   ],
+   "a": 0,
+   "tip": "run around 到處跑"
+  },
+  {
+   "q": "Let's ____ our thanks to Miss Lin on Teacher's Day.",
+   "o": [
+    "giving",
+    "give",
+    "gives",
+    "to give"
+   ],
+   "a": 1,
+   "tip": "Let's + 原形動詞 → give"
+  },
+  {
+   "q": "Joe: I have a CD for Miss Lin. How ____ you, Amy?\nAmy: I can make a cake.",
+   "o": [
+    "around",
+    "are",
+    "about",
+    "can"
+   ],
+   "a": 2,
+   "tip": "How about you? 那你呢？"
+  },
+  {
+   "q": "You have a card, a cake, and a CD. I can put ____ in the box.",
+   "o": [
+    "they",
+    "it",
+    "their",
+    "them"
+   ],
+   "a": 3,
+   "tip": "三樣東西 → 複數受格 them"
+  },
+  {
+   "q": "The party is ____ this Saturday.",
+   "o": [
+    "×",
+    "on",
+    "in",
+    "at"
+   ],
+   "a": 0,
+   "tip": "this/next + 時間前不加介系詞"
+  },
+  {
+   "q": "A: What ____ is the party?\nB: It's at 6:30 in the evening.",
+   "o": [
+    "day",
+    "time",
+    "date",
+    "month"
+   ],
+   "a": 1,
+   "tip": "答 at 6:30 → 問幾點 What time"
+  },
+  {
+   "q": "The party is ____ 6:30 ____ Saturday evening.",
+   "o": [
+    "on; at",
+    "in; on",
+    "at; on",
+    "at; in"
+   ],
+   "a": 2,
+   "tip": "時刻用 at；某天的早晚用 on"
+  },
+  {
+   "q": "A: When is the concert?\nB: It's ____ December 22.",
+   "o": [
+    "in",
+    "at",
+    "×",
+    "on"
+   ],
+   "a": 3,
+   "tip": "When 問句答「在某日」→ on + 日期"
+  },
+  {
+   "q": "August is ____ eighth month of the year.",
+   "o": [
+    "the",
+    "×",
+    "an",
+    "a"
+   ],
+   "a": 0,
+   "tip": "序數當形容詞前加 the"
+  },
+  {
+   "q": "A: What's the date today?\nB: It's ____.",
+   "o": [
+    "Friday, September",
+    "March 26th",
+    "second day in April",
+    "November fifth day"
+   ],
+   "a": 1,
+   "tip": "日期 = 月份 + 序數日"
+  },
+  {
+   "q": "Today is my sister's ____ birthday.",
+   "o": [
+    "twenty-one",
+    "twentieth-one",
+    "twenty-first",
+    "twentieth-first"
+   ],
+   "a": 2,
+   "tip": "21 → 十位基數 + 個位序數 twenty-first"
+  },
+  {
+   "q": "June 9th = ____",
+   "o": [
+    "ninth of June",
+    "nine of June",
+    "June nine",
+    "the ninth of June"
+   ],
+   "a": 3,
+   "tip": "the + 序數 + of + 月份"
+  },
+  {
+   "q": "A: ____ is your birthday?\nB: It's on June 20.",
+   "o": [
+    "When",
+    "What day",
+    "What time",
+    "Where"
+   ],
+   "a": 0,
+   "tip": "答 on June 20 → 問何時 When"
+  },
+  {
+   "q": "A: When is Christmas?\nB: ____",
+   "o": [
+    "It's on December twenty-five.",
+    "It's on December 25th.",
+    "It's in December 25th.",
+    "It's at December 25th."
+   ],
+   "a": 1,
+   "tip": "on + 日期，日用序數"
+  },
+  {
+   "q": "Her birthday party is on ____.",
+   "o": [
+    "Friday evenings",
+    "ninth of June",
+    "June 9th",
+    "July"
+   ],
+   "a": 2,
+   "tip": "on + 某月某日 June 9th"
+  },
+  {
+   "q": "Lorna: ____ is Thanksgiving?\nCindy: It's on the fourth Thursday of November.",
+   "o": [
+    "How",
+    "What time",
+    "Who",
+    "When"
+   ],
+   "a": 3,
+   "tip": "問節日在何時 → When"
+  },
+  {
+   "q": "The game is on ____ Monday of every month.",
+   "o": [
+    "the third",
+    "third",
+    "three",
+    "the three"
+   ],
+   "a": 0,
+   "tip": "第幾個星期一 → the + 序數"
+  },
+  {
+   "q": "Mother's Day is ____ the ____ Sunday of May.",
+   "o": [
+    "on; two",
+    "on; second",
+    "in; second",
+    "in; two"
+   ],
+   "a": 1,
+   "tip": "特定日用 on；第二個 → second"
+  },
+  {
+   "q": "Gina: What's today's date?\nKen: It's ____.",
+   "o": [
+    "in the morning",
+    "Monday",
+    "March fifth",
+    "three o'clock"
+   ],
+   "a": 2,
+   "tip": "問日期 → 答月份 + 日"
+  },
+  {
+   "q": "Thanksgiving is ____ November.",
+   "o": [
+    "on",
+    "at",
+    "×",
+    "in"
+   ],
+   "a": 3,
+   "tip": "只有月份 → in + 月份"
+  },
+  {
+   "q": "Let's meet in front of the school ____ 4 p.m.",
+   "o": [
+    "at",
+    "in",
+    "on",
+    "×"
+   ],
+   "a": 0,
+   "tip": "時刻前用 at"
+  },
+  {
+   "q": "December is the ____ month of the year.",
+   "o": [
+    "twelveth",
+    "twelfth",
+    "twelvth",
+    "twelfeth"
+   ],
+   "a": 1,
+   "tip": "twelve → twelfth（ve 改 f）"
+  },
+  {
+   "q": "My cousin is nine today. It's his ____ birthday.",
+   "o": [
+    "nineth",
+    "nineeth",
+    "ninth",
+    "ninthe"
+   ],
+   "a": 2,
+   "tip": "nine → ninth（去 e）"
+  },
+  {
+   "q": "May is the ____ month of the year.",
+   "o": [
+    "fiveth",
+    "fifeth",
+    "fivth",
+    "fifth"
+   ],
+   "a": 3,
+   "tip": "five → fifth（ve 改 f）"
+  },
+  {
+   "q": "A: What's the date today?\nB: It's October ____.",
+   "o": [
+    "thirtieth",
+    "thirteen",
+    "thirtyth",
+    "thirty-th"
+   ],
+   "a": 0,
+   "tip": "30 → y 改 ie + th → thirtieth"
+  },
+  {
+   "q": "A: Is Peter your first or second son?\nB: He's my ____ son.",
+   "o": [
+    "two",
+    "second",
+    "the second",
+    "seconds"
+   ],
+   "a": 1,
+   "tip": "所有格 + 序數，不再加 the"
+  },
+  {
+   "q": "A: What are you doing?\nB: I'm ____ dinner for my family.",
+   "o": [
+    "cook",
+    "cooks",
+    "cooking",
+    "to cook"
+   ],
+   "a": 2,
+   "tip": "現在進行式 be + V-ing"
+  },
+  {
+   "q": "Look! The cow ____ running around.",
+   "o": [
+    "are",
+    "am",
+    "be",
+    "is"
+   ],
+   "a": 3,
+   "tip": "the cow 單數 → is + V-ing"
+  },
+  {
+   "q": "Teddy the turkey: \"Don't eat ____! I'm small and thin.\"",
+   "o": [
+    "me",
+    "I",
+    "my",
+    "mine"
+   ],
+   "a": 0,
+   "tip": "動詞 eat 後接受格 me"
+  },
+  {
+   "q": "Kim: When can we eat? I'm hungry.\nMom: ____. Let's give our thanks first.",
+   "o": [
+    "Waiting",
+    "Wait",
+    "To wait",
+    "Waits"
+   ],
+   "a": 1,
+   "tip": "祈使句用原形動詞 Wait"
+  },
+  {
+   "q": "Jamie: My baby brother's birthday is ____ that day, too.",
+   "o": [
+    "in",
+    "at",
+    "on",
+    "×"
+   ],
+   "a": 2,
+   "tip": "on that day 在那一天"
+  },
+  {
+   "q": "Yuki's birthday is the day ____ Thanksgiving.",
+   "o": [
+    "around",
+    "about",
+    "also",
+    "before"
+   ],
+   "a": 3,
+   "tip": "the day before... 在…的前一天"
+  },
+  {
+   "q": "A: What time is it?\nB: ____",
+   "o": [
+    "It's seven thirty.",
+    "It's on Monday.",
+    "It's May first.",
+    "It's in the evening."
+   ],
+   "a": 0,
+   "tip": "What time 問幾點 → 答時刻"
+  },
+  {
+   "q": "Sunday is ____ day of the week.",
+   "o": [
+    "first",
+    "the first",
+    "a first",
+    "the one"
+   ],
+   "a": 1,
+   "tip": "序數當形容詞要加 the"
+  }
+ ],
+ "fix": [
+  {
+   "t": "[[What's]] the [[day]] today? It's [[October]] [[thirtieth]].",
+   "e": 1,
+   "o": [
+    "date",
+    "time",
+    "month"
+   ],
+   "a": 0,
+   "tip": "問幾月幾日用 date"
+  },
+  {
+   "t": "It's on the [[four]] Thursday [[of]] [[November]].",
+   "e": 0,
+   "o": [
+    "forth",
+    "fourteen",
+    "fourth"
+   ],
+   "a": 2,
+   "tip": "第四個 → 序數 fourth"
+  },
+  {
+   "t": "[[When]] is [[your]] birthday? It's [[in]] November 24.",
+   "e": 2,
+   "o": [
+    "at",
+    "on",
+    "for"
+   ],
+   "a": 1,
+   "tip": "某月某日前用 on"
+  },
+  {
+   "t": "My birthday is [[in]] March, and it's [[on]] the [[twelveth]].",
+   "e": 2,
+   "o": [
+    "twelfth",
+    "twelve",
+    "twelvth"
+   ],
+   "a": 0,
+   "tip": "twelve → twelfth"
+  },
+  {
+   "t": "September is [[the]] [[nineth]] month [[of]] the year.",
+   "e": 1,
+   "o": [
+    "nine",
+    "ninthe",
+    "ninth"
+   ],
+   "a": 2,
+   "tip": "nine → ninth（去 e）"
+  },
+  {
+   "t": "Today [[is on]] May 10, and [[my]] mom's birthday is [[on]] May [[twentieth]].",
+   "e": 0,
+   "o": [
+    "is at",
+    "is",
+    "is in"
+   ],
+   "a": 1,
+   "tip": "Today is + 日期，不加 on"
+  },
+  {
+   "t": "Let's [[meet]] [[in]] front of the school [[on]] 4 p.m.",
+   "e": 2,
+   "o": [
+    "at",
+    "in",
+    "for"
+   ],
+   "a": 0,
+   "tip": "時刻前用 at"
+  },
+  {
+   "t": "The party is [[at]] 6:30 [[in]] the evening [[at]] Saturday.",
+   "e": 2,
+   "o": [
+    "in",
+    "for",
+    "on"
+   ],
+   "a": 2,
+   "tip": "星期前用 on"
+  },
+  {
+   "t": "Mother's Day is [[in]] the [[second]] Sunday [[of]] May.",
+   "e": 0,
+   "o": [
+    "at",
+    "on",
+    "for"
+   ],
+   "a": 1,
+   "tip": "特定的某一天用 on"
+  },
+  {
+   "t": "Thanksgiving is [[on]] November. It's [[an]] [[important]] holiday.",
+   "e": 0,
+   "o": [
+    "in",
+    "at",
+    "for"
+   ],
+   "a": 0,
+   "tip": "只有月份用 in"
+  },
+  {
+   "t": "[[What]] is Teacher's Day? It's [[on]] September [[twenty-eighth]].",
+   "e": 0,
+   "o": [
+    "Who",
+    "Where",
+    "When"
+   ],
+   "a": 2,
+   "tip": "問「何時」用 When"
+  },
+  {
+   "t": "Today is my [[twenty-one]] birthday. [[Let's]] [[have]] a party.",
+   "e": 0,
+   "o": [
+    "twentieth-first",
+    "twenty-first",
+    "twenty-oneth"
+   ],
+   "a": 1,
+   "tip": "21 → twenty-first"
+  },
+  {
+   "t": "January is [[the first]] month, and [[February]] is [[second]] month.",
+   "e": 2,
+   "o": [
+    "the second",
+    "a second",
+    "two"
+   ],
+   "a": 0,
+   "tip": "序數當形容詞前要加 the"
+  },
+  {
+   "t": "A: [[What time]] is it today?\nB: It's [[Friday]], [[December]] [[first]].",
+   "e": 0,
+   "o": [
+    "How",
+    "Who",
+    "What day"
+   ],
+   "a": 2,
+   "tip": "答星期 → 問 What day"
+  },
+  {
+   "t": "The animals [[on]] the farm [[is]] [[nervous]].",
+   "e": 1,
+   "o": [
+    "am",
+    "are",
+    "be"
+   ],
+   "a": 1,
+   "tip": "animals 複數 → are"
+  },
+  {
+   "t": "Ruby the rabbit [[is]] [[jumpping]] up [[and]] down.",
+   "e": 1,
+   "o": [
+    "jumping",
+    "jumps",
+    "jump"
+   ],
+   "a": 0,
+   "tip": "jump 直接加 -ing，不重複 p"
+  },
+  {
+   "t": "Kelly the cow [[is]] [[runing]] [[around]].",
+   "e": 1,
+   "o": [
+    "run",
+    "runs",
+    "running"
+   ],
+   "a": 2,
+   "tip": "run 短母音 → 重複 n 加 -ing"
+  },
+  {
+   "t": "Teddy the turkey: \"Don't [[eat]] [[I]]! [[I'm]] small and thin.\"",
+   "e": 1,
+   "o": [
+    "my",
+    "me",
+    "mine"
+   ],
+   "a": 1,
+   "tip": "動詞後接受格 me"
+  },
+  {
+   "t": "Joe's wife [[is]] only [[take]] a walk. The animals [[are]] safe.",
+   "e": 1,
+   "o": [
+    "taking",
+    "takes",
+    "to take"
+   ],
+   "a": 0,
+   "tip": "現在進行式 is + V-ing"
+  },
+  {
+   "t": "[[Let's]] go [[around]] the table and [[gives]] our thanks.",
+   "e": 2,
+   "o": [
+    "giving",
+    "to give",
+    "give"
+   ],
+   "a": 2,
+   "tip": "Let's 後兩個動詞都用原形"
+  },
+  {
+   "t": "Christmas is [[in]] December. It's [[on]] [[the December 25]] [[every year]].",
+   "e": 2,
+   "o": [
+    "the December 25th",
+    "December 25",
+    "December twenty-five"
+   ],
+   "a": 1,
+   "tip": "月份 + 日期前不加 the"
+  },
+  {
+   "t": "A: When is [[the]] concert?\nB: It's [[at]] [[Saturday]], May [[first]].",
+   "e": 1,
+   "o": [
+    "on",
+    "in",
+    "for"
+   ],
+   "a": 0,
+   "tip": "星期、日期前用 on"
+  },
+  {
+   "t": "My baby brother [[is]] [[seven month]] old, and his birthday is [[on]] [[the fourth]] of July.",
+   "e": 1,
+   "o": [
+    "seventh month",
+    "seven monthes",
+    "seven months"
+   ],
+   "a": 2,
+   "tip": "seven 之後名詞用複數 months"
+  },
+  {
+   "t": "[[Is]] your birthday [[in]] June? No, it [[isn't]]. It's [[at]] July 9.",
+   "e": 3,
+   "o": [
+    "in",
+    "on",
+    "of"
+   ],
+   "a": 1,
+   "tip": "某月某日前用 on"
+  },
+  {
+   "t": "Dad [[is]] [[thankful]] [[for]] [[he]] family.",
+   "e": 3,
+   "o": [
+    "his",
+    "him",
+    "he's"
+   ],
+   "a": 0,
+   "tip": "名詞前用所有格 his"
+  }
+ ],
+ "sent": [
+  {
+   "en": "What's the date today?",
+   "hl": "[[What's the date]] today?",
+   "gz": "詢問日期",
+   "o": [
+    "今天是星期幾？",
+    "今天是幾月幾日？",
+    "現在是幾點？"
+   ],
+   "a": 1,
+   "tip": "the date 問日期，day 才問星期"
+  },
+  {
+   "en": "It's November twenty-first.",
+   "hl": "It's November [[twenty-first]].",
+   "gz": "序數表日期",
+   "o": [
+    "今天是十一月二十日。",
+    "現在是十一點二十一分。",
+    "今天是十一月二十一日。"
+   ],
+   "a": 2,
+   "tip": "twenty-first = 21日"
+  },
+  {
+   "en": "Thanksgiving is next week.",
+   "hl": "Thanksgiving is [[next week]].",
+   "gz": "next + 時間",
+   "o": [
+    "感恩節在下週。",
+    "感恩節在這週。",
+    "感恩節在上週。"
+   ],
+   "a": 0,
+   "tip": "next week 下週"
+  },
+  {
+   "en": "It's an important holiday in the USA.",
+   "hl": "It's [[an]] important holiday in the USA.",
+   "gz": "冠詞 an + 單數名詞",
+   "o": [
+    "那些是美國重要的節日。",
+    "那是美國一個重要的節日。",
+    "那是美國唯一重要的節日。"
+   ],
+   "a": 1,
+   "tip": "an + 單數名詞：一個節日"
+  },
+  {
+   "en": "When is it?",
+   "hl": "[[When]] is it?",
+   "gz": "疑問詞 When",
+   "o": [
+    "它是什麼？",
+    "它在哪裡？",
+    "它是什麼時候？"
+   ],
+   "a": 2,
+   "tip": "When 問何時"
+  },
+  {
+   "en": "It's on the fourth Thursday of November.",
+   "hl": "It's [[on]] the [[fourth]] Thursday of November.",
+   "gz": "on + 序數特定日",
+   "o": [
+    "它在十一月的第四個星期四。",
+    "它在十一月的四個星期四。",
+    "它在十一月四日星期四。"
+   ],
+   "a": 0,
+   "tip": "the fourth Thursday 第四個星期四"
+  },
+  {
+   "en": "This year, it's on the twenty-eighth.",
+   "hl": "This year, it's [[on the twenty-eighth]].",
+   "gz": "on + 日期",
+   "o": [
+    "今年它在二十日。",
+    "今年它在二十八日。",
+    "今年它在八日。"
+   ],
+   "a": 1,
+   "tip": "twenty-eighth = 28日"
+  },
+  {
+   "en": "Oh, my birthday is also next week.",
+   "hl": "Oh, my birthday is [[also]] next week.",
+   "gz": "also 也",
+   "o": [
+    "喔，我的生日不在下週。",
+    "喔，我的生日只在下週。",
+    "喔，我的生日也在下週。"
+   ],
+   "a": 2,
+   "tip": "also 也"
+  },
+  {
+   "en": "It's the day before Thanksgiving.",
+   "hl": "It's the day [[before]] Thanksgiving.",
+   "gz": "before 在…之前",
+   "o": [
+    "是感恩節的前一天。",
+    "是感恩節的後一天。",
+    "是感恩節當天。"
+   ],
+   "a": 0,
+   "tip": "the day before 前一天"
+  },
+  {
+   "en": "My baby brother's birthday is on that day, too.",
+   "hl": "[[My baby brother's]] birthday is [[on that day]], too.",
+   "gz": "所有格 + on that day",
+   "o": [
+    "我小弟弟的生日不在那一天。",
+    "我小弟弟的生日也在那一天。",
+    "我小弟弟們的生日也在那一天。"
+   ],
+   "a": 1,
+   "tip": "brother's 單數所有格；too 也"
+  },
+  {
+   "en": "When can we eat?  I'm hungry.",
+   "hl": "[[When can]] we [[eat]]?  I'm hungry.",
+   "gz": "When + can 問句",
+   "o": [
+    "我們在哪裡可以吃？我餓了。",
+    "我們可以吃什麼？我餓了。",
+    "我們什麼時候可以吃？我餓了。"
+   ],
+   "a": 2,
+   "tip": "When can...? 什麼時候可以"
+  },
+  {
+   "en": "Let's go around the table and give our thanks.",
+   "hl": "[[Let's go]] around the table and [[give]] our thanks.",
+   "gz": "Let's + 原形動詞",
+   "o": [
+    "我們繞著桌子輪流表達感謝吧。",
+    "我們正在繞著桌子表達感謝。",
+    "我們不要繞著桌子表達感謝。"
+   ],
+   "a": 0,
+   "tip": "Let's 表提議「…吧」"
+  },
+  {
+   "en": "How about you, girls?",
+   "hl": "[[How about]] you, girls?",
+   "gz": "How about...?",
+   "o": [
+    "女孩們，妳們好嗎？",
+    "女孩們，那妳們呢？",
+    "女孩們，妳們在哪裡？"
+   ],
+   "a": 1,
+   "tip": "How about you? 那你們呢？"
+  },
+  {
+   "en": "I'm ready for the second leg.",
+   "hl": "I'm ready for [[the second]] leg.",
+   "gz": "序數 the second",
+   "o": [
+    "我準備好吃兩隻腿了。",
+    "我還沒準備好吃第二隻腿。",
+    "我準備好吃第二隻腿了。"
+   ],
+   "a": 2,
+   "tip": "the second 第二（的）"
+  },
+  {
+   "en": "What's the date?  It's October thirtieth.",
+   "hl": "What's the date?  It's October [[thirtieth]].",
+   "gz": "序數 thirtieth",
+   "o": [
+    "幾月幾日？十月三十日。",
+    "幾月幾日？十月十三日。",
+    "星期幾？十月三十日。"
+   ],
+   "a": 0,
+   "tip": "thirtieth 30日；thirteenth 13日"
+  },
+  {
+   "en": "When is your birthday?  It's on November 24.",
+   "hl": "[[When]] is [[your]] birthday?  It's [[on]] November 24.",
+   "gz": "When 問句",
+   "o": [
+    "你的生日是星期幾？在十一月二十四日。",
+    "你的生日是什麼時候？在十一月二十四日。",
+    "他的生日是什麼時候？在十一月二十四日。"
+   ],
+   "a": 1,
+   "tip": "When 問何時；your 你的"
+  },
+  {
+   "en": "Today is December 24, and it is Christmas Eve.",
+   "hl": "[[Today is]] December 24, and it [[is]] Christmas Eve.",
+   "gz": "日期敘述",
+   "o": [
+    "今天是十二月二十四日，不是平安夜。",
+    "明天是十二月二十四日，是平安夜。",
+    "今天是十二月二十四日，是平安夜。"
+   ],
+   "a": 2,
+   "tip": "Today is + 日期"
+  },
+  {
+   "en": "They are very happy, but the animals on their farm are not.",
+   "hl": "They are very happy, but the animals on [[their]] farm [[are not]].",
+   "gz": "be動詞否定句",
+   "o": [
+    "他們很快樂，但他們農場上的動物並不快樂。",
+    "他們很快樂，他們農場上的動物也很快樂。",
+    "他很快樂，但他農場上的動物並不快樂。"
+   ],
+   "a": 0,
+   "tip": "are not 否定：動物不快樂"
+  },
+  {
+   "en": "Joe is cooking in the kitchen, and Joe's wife is walking to the animals.",
+   "hl": "Joe [[is cooking]] in the kitchen, and Joe's wife [[is walking]] to the animals.",
+   "gz": "現在進行式",
+   "o": [
+    "喬每天在廚房煮飯，而喬的太太每天走向動物們。",
+    "喬正在廚房煮飯，而喬的太太正走向動物們。",
+    "喬正在廚房煮飯，而喬的太太正走向一隻動物。"
+   ],
+   "a": 1,
+   "tip": "is + V-ing 正在…"
+  },
+  {
+   "en": "Peter the pig is shaking.",
+   "hl": "Peter the pig [[is shaking]].",
+   "gz": "現在進行式",
+   "o": [
+    "小豬彼得沒有在發抖。",
+    "小豬彼得常常發抖。",
+    "小豬彼得正在發抖。"
+   ],
+   "a": 2,
+   "tip": "is shaking 正在發抖"
+  },
+  {
+   "en": "Oh no!  Don't eat me!  I'm small and thin.",
+   "hl": "Oh no!  [[Don't eat me]]!  I'm small and thin.",
+   "gz": "否定祈使句 + 受格",
+   "o": [
+    "喔不！別吃我！我又小又瘦。",
+    "喔不！吃我吧！我又小又瘦。",
+    "喔不！別吃他！他又小又瘦。"
+   ],
+   "a": 0,
+   "tip": "Don't + 原形：不要…；me 我"
+  },
+  {
+   "en": "Joe's wife is only taking a walk.",
+   "hl": "Joe's wife is [[only]] [[taking]] a walk.",
+   "gz": "only + 現在進行式",
+   "o": [
+    "喬的太太不是在散步。",
+    "喬的太太只是在散步。",
+    "喬的太太每天都在散步。"
+   ],
+   "a": 1,
+   "tip": "only 只是；is taking 正在"
+  },
+  {
+   "en": "Mother's Day is on the second Sunday of May.",
+   "hl": "Mother's Day is [[on]] the [[second]] Sunday of May.",
+   "gz": "on + 序數特定日",
+   "o": [
+    "母親節在五月二日星期日。",
+    "母親節在五月的兩個星期日。",
+    "母親節在五月的第二個星期日。"
+   ],
+   "a": 2,
+   "tip": "the second Sunday 第二個星期日"
+  },
+  {
+   "en": "March is the third month of the year.",
+   "hl": "March is [[the third]] month of the year.",
+   "gz": "the + 序數",
+   "o": [
+    "三月是一年中的第三個月。",
+    "三月是一年中的三個月。",
+    "三月是一週中的第三天。"
+   ],
+   "a": 0,
+   "tip": "the third month 第三個月"
+  },
+  {
+   "en": "Thanksgiving is in November.",
+   "hl": "Thanksgiving is [[in]] November.",
+   "gz": "in + 月份",
+   "o": [
+    "感恩節不在十一月。",
+    "感恩節在十一月。",
+    "感恩節在十一月十一日。"
+   ],
+   "a": 1,
+   "tip": "in + 月份"
+  }
+ ]
+}
