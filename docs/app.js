@@ -142,17 +142,17 @@ function home() {
   app.innerHTML = `
   <section class="hero">
     <div class="kicker">國一英語・Book 1・段考複習</div>
-    <h1><span class="cls">國一</span> 段考複習</h1>
+    <h1><span class="cls">國一</span> 英語段考複習</h1>
     <p>六個單元＋三個 Review，每單元四個等級由易到難；Review 有段考翻譯範圍的句子重組和課文排序。可以自己練，也可以和同學 1 vs 1。</p>
   </section>
   <div class="card frame">${rankCard()}</div>
-  <div class="sec"><h2>單元</h2><small>一段 U1、U2＋R1（翻譯 p.39）・二段 U3、U4＋R2（翻譯 p.79）・三段 U5、U6＋R3（翻譯 p.117）</small></div>
+  <div class="sec"><h2>單元</h2><small>每課一個單元・每兩課一個 Review</small></div>
   <div class="units">${UNITS.map(u => {
     const gs = u.rv ? ['vocab', 'grammar', 'fix', 'news', 'order', 'passage'] : ['vocab', 'grammar', 'fix', 'news'];
     const st = gs.reduce((s, g) => s + (store.get(bestKey(u.id, g), null)?.stars || 0), 0), mx = gs.length * 3;
     return `<a class="unit ${u.rv ? 'rv' : ''}" href="#/u/${u.id}">
       <span class="stars">${st} / ${mx} ★</span>
-      <div class="no">${u.rv ? 'Review ' + u.no.slice(1) : 'Unit ' + u.no.slice(1)}・${EXAMS[u.ex]}</div>
+      <div class="no">${u.rv ? 'Review ' + u.no.slice(1) : 'Unit ' + u.no.slice(1)}</div>
       <h3>${esc(u.rv ? u.zh : u.title)}</h3><p>${u.rv ? '' : esc(u.zh) + '｜'}${esc(u.gram)}</p></a>`;
   }).join('')}</div>
   ${crossSection()}`;
@@ -187,7 +187,7 @@ function unitView(id) {
     <div class="missions" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">${missionCard(id, 'order')}${missionCard(id, 'passage')}</div>` : '';
   app.innerHTML = `<div class="crumb"><a href="#/">← 回首頁</a></div>
   <div class="card frame">
-    <div class="chip ${u.rv ? 'cyan' : 'acc'}">${u.rv ? 'Review ' + u.no.slice(1) + '・涵蓋 U' + u.ls.join('、U') : 'Unit ' + u.no.slice(1)}・${EXAMS[u.ex]}</div>
+    <div class="chip ${u.rv ? 'cyan' : 'acc'}">${u.rv ? 'Review ' + u.no.slice(1) + '・涵蓋 U' + u.ls.join('、U') : 'Unit ' + u.no.slice(1)}</div>
     <h2 style="margin:8px 0 4px;font-size:22px">${esc(u.title)}</h2>
     <div class="grammarbox">${esc(u.zh)}<br><b>文法重點：</b>${esc(u.gram)}</div>
   </div>
